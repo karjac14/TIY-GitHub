@@ -1,0 +1,2854 @@
+[
+  {
+    "id": "3189082059",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 8317978,
+      "login": "karjac14",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karjac14",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8317978?"
+    },
+    "repo": {
+      "id": 41692212,
+      "name": "jmcreasman/jmcreasman.github.io",
+      "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/issues/10",
+        "labels_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/issues/10/labels{/name}",
+        "comments_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/issues/10/comments",
+        "events_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/issues/10/events",
+        "html_url": "https://github.com/jmcreasman/jmcreasman.github.io/pull/10",
+        "id": 108730543,
+        "number": 10,
+        "title": "Journals",
+        "user": {
+          "login": "jmcreasman",
+          "id": 13600903,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jmcreasman",
+          "html_url": "https://github.com/jmcreasman",
+          "followers_url": "https://api.github.com/users/jmcreasman/followers",
+          "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+          "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+          "repos_url": "https://api.github.com/users/jmcreasman/repos",
+          "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 2,
+        "created_at": "2015-09-28T19:32:57Z",
+        "updated_at": "2015-09-29T02:25:55Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/pulls/10",
+          "html_url": "https://github.com/jmcreasman/jmcreasman.github.io/pull/10",
+          "diff_url": "https://github.com/jmcreasman/jmcreasman.github.io/pull/10.diff",
+          "patch_url": "https://github.com/jmcreasman/jmcreasman.github.io/pull/10.patch"
+        },
+        "body": ""
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/issues/comments/143925918",
+        "html_url": "https://github.com/jmcreasman/jmcreasman.github.io/pull/10#issuecomment-143925918",
+        "issue_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/issues/10",
+        "id": 143925918,
+        "user": {
+          "login": "karjac14",
+          "id": 8317978,
+          "avatar_url": "https://avatars.githubusercontent.com/u/8317978?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/karjac14",
+          "html_url": "https://github.com/karjac14",
+          "followers_url": "https://api.github.com/users/karjac14/followers",
+          "following_url": "https://api.github.com/users/karjac14/following{/other_user}",
+          "gists_url": "https://api.github.com/users/karjac14/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/karjac14/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/karjac14/subscriptions",
+          "organizations_url": "https://api.github.com/users/karjac14/orgs",
+          "repos_url": "https://api.github.com/users/karjac14/repos",
+          "events_url": "https://api.github.com/users/karjac14/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/karjac14/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-09-29T02:25:55Z",
+        "updated_at": "2015-09-29T02:25:55Z",
+        "body": "Its seems you got a lot of take homes from the field trip. great observation there! :+1: "
+      }
+    },
+    "public": true,
+    "created_at": "2015-09-29T02:25:55Z"
+  },
+  {
+    "id": "3189070889",
+    "type": "PushEvent",
+    "actor": {
+      "id": 8317978,
+      "login": "karjac14",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karjac14",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8317978?"
+    },
+    "repo": {
+      "id": 41693871,
+      "name": "karjac14/karjac14.github.io",
+      "url": "https://api.github.com/repos/karjac14/karjac14.github.io"
+    },
+    "payload": {
+      "push_id": 808327807,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-4",
+      "head": "15a02d2960bc003470bde017c0dcff67b09201c8",
+      "before": "b60a204dbd0edeafaa0826fd2589aeaa35196b74",
+      "commits": [
+        {
+          "sha": "15a02d2960bc003470bde017c0dcff67b09201c8",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "Rough Draft",
+          "distinct": true,
+          "url": "https://api.github.com/repos/karjac14/karjac14.github.io/commits/15a02d2960bc003470bde017c0dcff67b09201c8"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-09-29T02:19:38Z"
+  },
+  {
+    "id": "3188985786",
+    "type": "PushEvent",
+    "actor": {
+      "id": 8317978,
+      "login": "karjac14",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karjac14",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8317978?"
+    },
+    "repo": {
+      "id": 41693871,
+      "name": "karjac14/karjac14.github.io",
+      "url": "https://api.github.com/repos/karjac14/karjac14.github.io"
+    },
+    "payload": {
+      "push_id": 808297424,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-4",
+      "head": "b60a204dbd0edeafaa0826fd2589aeaa35196b74",
+      "before": "576da3f02af951f6da4d3faab3a45163abde1a40",
+      "commits": [
+        {
+          "sha": "b60a204dbd0edeafaa0826fd2589aeaa35196b74",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "Update journal-week-4.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/karjac14/karjac14.github.io/commits/b60a204dbd0edeafaa0826fd2589aeaa35196b74"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-09-29T01:32:54Z"
+  },
+  {
+    "id": "3188985010",
+    "type": "PushEvent",
+    "actor": {
+      "id": 8317978,
+      "login": "karjac14",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karjac14",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8317978?"
+    },
+    "repo": {
+      "id": 41693871,
+      "name": "karjac14/karjac14.github.io",
+      "url": "https://api.github.com/repos/karjac14/karjac14.github.io"
+    },
+    "payload": {
+      "push_id": 808297131,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-4",
+      "head": "576da3f02af951f6da4d3faab3a45163abde1a40",
+      "before": "8c443b3ea967af5c0eeb32aa58b63f62dd73b4b0",
+      "commits": [
+        {
+          "sha": "576da3f02af951f6da4d3faab3a45163abde1a40",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "Update journal-week-4.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/karjac14/karjac14.github.io/commits/576da3f02af951f6da4d3faab3a45163abde1a40"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-09-29T01:32:23Z"
+  },
+  {
+    "id": "3187759044",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 8317978,
+      "login": "karjac14",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karjac14",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8317978?"
+    },
+    "repo": {
+      "id": 43317240,
+      "name": "karjac14/TIY-GitHub",
+      "url": "https://api.github.com/repos/karjac14/TIY-GitHub"
+    },
+    "payload": {
+      "ref": "yak-shaving",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-09-28T18:33:22Z"
+  },
+  {
+    "id": "3187756130",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 8317978,
+      "login": "karjac14",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karjac14",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8317978?"
+    },
+    "repo": {
+      "id": 41059030,
+      "name": "TIY-Durham/2015-FALL-FEE",
+      "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/317",
+        "labels_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/317/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/317/comments",
+        "events_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/317/events",
+        "html_url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues/317",
+        "id": 108705998,
+        "number": 317,
+        "title": "16 -- Karlo Eleuterio",
+        "user": {
+          "login": "karjac14",
+          "id": 8317978,
+          "avatar_url": "https://avatars.githubusercontent.com/u/8317978?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/karjac14",
+          "html_url": "https://github.com/karjac14",
+          "followers_url": "https://api.github.com/users/karjac14/followers",
+          "following_url": "https://api.github.com/users/karjac14/following{/other_user}",
+          "gists_url": "https://api.github.com/users/karjac14/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/karjac14/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/karjac14/subscriptions",
+          "organizations_url": "https://api.github.com/users/karjac14/orgs",
+          "repos_url": "https://api.github.com/users/karjac14/repos",
+          "events_url": "https://api.github.com/users/karjac14/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/karjac14/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-09-28T17:26:48Z",
+        "updated_at": "2015-09-28T18:32:28Z",
+        "closed_at": null,
+        "body": "* **Yak-Shaving**\r\n  * [x] Create a _WIP Issue_ in the class repo\r\n  * [x] **MERGE ALL YOUR OPEN PRs!**\r\n  * [ ] Create a _WIP Branch_ in:\r\n    * [ ] `USERNAME.github.io` named `journal-week-4` from `master`\r\n    * [x] `TIY-Assignments` named `16--planet-of-the-apis` from `master`\r\n    * [ ] `TIY-GitHub` named `yak-shaving` from `master`\r\n  * [ ] Create or update the following _WIP Files_ in:\r\n    * `USERNAME.github.io:journal-week-4`\r\n      * `journal-week-4.md` or something creative\r\n      * `tutorial-week-4.md` or something creative\r\n    * `TIY-Assignments:16-planet-of-the-apis`\r\n      * `CheatSheets/GitHubAPI.md` -- Did you have a **Starting Point**?\r\n      * `ProductPage/` -- use `yo h5bp` in here...\r\n        * CREATE: `specs/` -- for Skitching the following:\r\n          * `full--desktop.png`\r\n          * `full--mobile.png`\r\n          * `full--tablet.png`\r\n        * RENAME: `css/main.css` to `scss/main.scss`\r\n    * `TIY-GitHub:yak-shaving`\r\n      * `apis/`\r\n        * `github/`\r\n          * `users/`\r\n            * `octocat.json` -- from the API!\r\n      * `dist/`\r\n        * `.gitignore` -- ignoring _everything_\r\n      * `specs/` -- for the Skitching!\r\n        * `octocat--full.png`\r\n        * `octocat--*.png` -- whatever you want to call them\r\n        * `USERNAME--full.png`\r\n        * `USERNAME--*.png` -- more of the same\r\n      * `src/` -- starting with H5BP...!\r\n        * CREATE: `css/.gitignore` -- read my lips, no new CSS files\r\n        * RENAME: `css/main.css` to `scss/main.scss`\r\n        * CREATE: `scss/custom.scss`\r\n        * `index.html` -- no errors, please\r\n      * `package.json` -- via `npm init`; _not_ in `src/`\r\n  * [ ] Add comments to your _WIP Issue_ with links to your PRs in:\r\n    * [ ] `USERNAME.github.io` from `journal-week-4` into `master`\r\n    * [ ] `TIY-Assignments` from `16--planet-of-the-apis` into `master`\r\n    * [ ] `TIY-GitHub` from `yak-shaving` into `master`\r\n* **Journal, Week 4**\r\n  * [ ] Flag in the sand for _reflective_!\r\n  * [ ] Flag in the sand for _tutorial_!\r\n  * [ ] Peer review x2!\r\n  * [ ] Reviewed peers x2!\r\n* **Reading APIs: GitHub**\r\n  * [ ] Create `CheatSheets/GitHubAPI.md`\r\n  * [ ] Start with the **Starting Point**\r\n  * [ ] Add items to this checklist for The Questions\r\n  * [ ] Get to checkin' off boxes!\r\n* **GitHub Revolution**\r\n  * [ ] **Yak Shaving** complete!\r\n  * [ ] We gotta **Sass it up...!**\r\n  * [ ] Time for some **API Gymnastics**!\r\n  * [ ] Now just **Skitch this profile**!"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/comments/143836225",
+        "html_url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues/317#issuecomment-143836225",
+        "issue_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/317",
+        "id": 143836225,
+        "user": {
+          "login": "karjac14",
+          "id": 8317978,
+          "avatar_url": "https://avatars.githubusercontent.com/u/8317978?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/karjac14",
+          "html_url": "https://github.com/karjac14",
+          "followers_url": "https://api.github.com/users/karjac14/followers",
+          "following_url": "https://api.github.com/users/karjac14/following{/other_user}",
+          "gists_url": "https://api.github.com/users/karjac14/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/karjac14/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/karjac14/subscriptions",
+          "organizations_url": "https://api.github.com/users/karjac14/orgs",
+          "repos_url": "https://api.github.com/users/karjac14/repos",
+          "events_url": "https://api.github.com/users/karjac14/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/karjac14/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-09-28T18:32:28Z",
+        "updated_at": "2015-09-28T18:32:28Z",
+        "body": "Journal week 4 PR:\r\nhttps://github.com/karjac14/karjac14.github.io/pull/11"
+      }
+    },
+    "public": true,
+    "created_at": "2015-09-28T18:32:29Z",
+    "org": {
+      "id": 13875036,
+      "login": "TIY-Durham",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TIY-Durham",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13875036?"
+    }
+  },
+  {
+    "id": "3187754836",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 8317978,
+      "login": "karjac14",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karjac14",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8317978?"
+    },
+    "repo": {
+      "id": 41693871,
+      "name": "karjac14/karjac14.github.io",
+      "url": "https://api.github.com/repos/karjac14/karjac14.github.io"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 11,
+      "pull_request": {
+        "url": "https://api.github.com/repos/karjac14/karjac14.github.io/pulls/11",
+        "id": 46191174,
+        "html_url": "https://github.com/karjac14/karjac14.github.io/pull/11",
+        "diff_url": "https://github.com/karjac14/karjac14.github.io/pull/11.diff",
+        "patch_url": "https://github.com/karjac14/karjac14.github.io/pull/11.patch",
+        "issue_url": "https://api.github.com/repos/karjac14/karjac14.github.io/issues/11",
+        "number": 11,
+        "state": "open",
+        "locked": false,
+        "title": "Create journal-week-4.md",
+        "user": {
+          "login": "karjac14",
+          "id": 8317978,
+          "avatar_url": "https://avatars.githubusercontent.com/u/8317978?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/karjac14",
+          "html_url": "https://github.com/karjac14",
+          "followers_url": "https://api.github.com/users/karjac14/followers",
+          "following_url": "https://api.github.com/users/karjac14/following{/other_user}",
+          "gists_url": "https://api.github.com/users/karjac14/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/karjac14/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/karjac14/subscriptions",
+          "organizations_url": "https://api.github.com/users/karjac14/orgs",
+          "repos_url": "https://api.github.com/users/karjac14/repos",
+          "events_url": "https://api.github.com/users/karjac14/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/karjac14/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-09-28T18:32:07Z",
+        "updated_at": "2015-09-28T18:32:07Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/karjac14/karjac14.github.io/pulls/11/commits",
+        "review_comments_url": "https://api.github.com/repos/karjac14/karjac14.github.io/pulls/11/comments",
+        "review_comment_url": "https://api.github.com/repos/karjac14/karjac14.github.io/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/karjac14/karjac14.github.io/issues/11/comments",
+        "statuses_url": "https://api.github.com/repos/karjac14/karjac14.github.io/statuses/8c443b3ea967af5c0eeb32aa58b63f62dd73b4b0",
+        "head": {
+          "label": "karjac14:journal-week-4",
+          "ref": "journal-week-4",
+          "sha": "8c443b3ea967af5c0eeb32aa58b63f62dd73b4b0",
+          "user": {
+            "login": "karjac14",
+            "id": 8317978,
+            "avatar_url": "https://avatars.githubusercontent.com/u/8317978?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/karjac14",
+            "html_url": "https://github.com/karjac14",
+            "followers_url": "https://api.github.com/users/karjac14/followers",
+            "following_url": "https://api.github.com/users/karjac14/following{/other_user}",
+            "gists_url": "https://api.github.com/users/karjac14/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/karjac14/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/karjac14/subscriptions",
+            "organizations_url": "https://api.github.com/users/karjac14/orgs",
+            "repos_url": "https://api.github.com/users/karjac14/repos",
+            "events_url": "https://api.github.com/users/karjac14/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/karjac14/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 41693871,
+            "name": "karjac14.github.io",
+            "full_name": "karjac14/karjac14.github.io",
+            "owner": {
+              "login": "karjac14",
+              "id": 8317978,
+              "avatar_url": "https://avatars.githubusercontent.com/u/8317978?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/karjac14",
+              "html_url": "https://github.com/karjac14",
+              "followers_url": "https://api.github.com/users/karjac14/followers",
+              "following_url": "https://api.github.com/users/karjac14/following{/other_user}",
+              "gists_url": "https://api.github.com/users/karjac14/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/karjac14/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/karjac14/subscriptions",
+              "organizations_url": "https://api.github.com/users/karjac14/orgs",
+              "repos_url": "https://api.github.com/users/karjac14/repos",
+              "events_url": "https://api.github.com/users/karjac14/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/karjac14/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/karjac14/karjac14.github.io",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/karjac14/karjac14.github.io",
+            "forks_url": "https://api.github.com/repos/karjac14/karjac14.github.io/forks",
+            "keys_url": "https://api.github.com/repos/karjac14/karjac14.github.io/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/karjac14/karjac14.github.io/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/karjac14/karjac14.github.io/teams",
+            "hooks_url": "https://api.github.com/repos/karjac14/karjac14.github.io/hooks",
+            "issue_events_url": "https://api.github.com/repos/karjac14/karjac14.github.io/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/karjac14/karjac14.github.io/events",
+            "assignees_url": "https://api.github.com/repos/karjac14/karjac14.github.io/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/karjac14/karjac14.github.io/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/karjac14/karjac14.github.io/tags",
+            "blobs_url": "https://api.github.com/repos/karjac14/karjac14.github.io/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/karjac14/karjac14.github.io/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/karjac14/karjac14.github.io/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/karjac14/karjac14.github.io/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/karjac14/karjac14.github.io/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/karjac14/karjac14.github.io/languages",
+            "stargazers_url": "https://api.github.com/repos/karjac14/karjac14.github.io/stargazers",
+            "contributors_url": "https://api.github.com/repos/karjac14/karjac14.github.io/contributors",
+            "subscribers_url": "https://api.github.com/repos/karjac14/karjac14.github.io/subscribers",
+            "subscription_url": "https://api.github.com/repos/karjac14/karjac14.github.io/subscription",
+            "commits_url": "https://api.github.com/repos/karjac14/karjac14.github.io/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/karjac14/karjac14.github.io/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/karjac14/karjac14.github.io/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/karjac14/karjac14.github.io/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/karjac14/karjac14.github.io/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/karjac14/karjac14.github.io/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/karjac14/karjac14.github.io/merges",
+            "archive_url": "https://api.github.com/repos/karjac14/karjac14.github.io/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/karjac14/karjac14.github.io/downloads",
+            "issues_url": "https://api.github.com/repos/karjac14/karjac14.github.io/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/karjac14/karjac14.github.io/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/karjac14/karjac14.github.io/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/karjac14/karjac14.github.io/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/karjac14/karjac14.github.io/labels{/name}",
+            "releases_url": "https://api.github.com/repos/karjac14/karjac14.github.io/releases{/id}",
+            "created_at": "2015-08-31T18:46:36Z",
+            "updated_at": "2015-08-31T18:46:36Z",
+            "pushed_at": "2015-09-28T18:31:59Z",
+            "git_url": "git://github.com/karjac14/karjac14.github.io.git",
+            "ssh_url": "git@github.com:karjac14/karjac14.github.io.git",
+            "clone_url": "https://github.com/karjac14/karjac14.github.io.git",
+            "svn_url": "https://github.com/karjac14/karjac14.github.io",
+            "homepage": null,
+            "size": 409,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 1,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 1,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "karjac14:master",
+          "ref": "master",
+          "sha": "41cd839ccd3dd878eb8ff5760c0ee495676049e4",
+          "user": {
+            "login": "karjac14",
+            "id": 8317978,
+            "avatar_url": "https://avatars.githubusercontent.com/u/8317978?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/karjac14",
+            "html_url": "https://github.com/karjac14",
+            "followers_url": "https://api.github.com/users/karjac14/followers",
+            "following_url": "https://api.github.com/users/karjac14/following{/other_user}",
+            "gists_url": "https://api.github.com/users/karjac14/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/karjac14/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/karjac14/subscriptions",
+            "organizations_url": "https://api.github.com/users/karjac14/orgs",
+            "repos_url": "https://api.github.com/users/karjac14/repos",
+            "events_url": "https://api.github.com/users/karjac14/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/karjac14/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 41693871,
+            "name": "karjac14.github.io",
+            "full_name": "karjac14/karjac14.github.io",
+            "owner": {
+              "login": "karjac14",
+              "id": 8317978,
+              "avatar_url": "https://avatars.githubusercontent.com/u/8317978?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/karjac14",
+              "html_url": "https://github.com/karjac14",
+              "followers_url": "https://api.github.com/users/karjac14/followers",
+              "following_url": "https://api.github.com/users/karjac14/following{/other_user}",
+              "gists_url": "https://api.github.com/users/karjac14/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/karjac14/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/karjac14/subscriptions",
+              "organizations_url": "https://api.github.com/users/karjac14/orgs",
+              "repos_url": "https://api.github.com/users/karjac14/repos",
+              "events_url": "https://api.github.com/users/karjac14/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/karjac14/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/karjac14/karjac14.github.io",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/karjac14/karjac14.github.io",
+            "forks_url": "https://api.github.com/repos/karjac14/karjac14.github.io/forks",
+            "keys_url": "https://api.github.com/repos/karjac14/karjac14.github.io/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/karjac14/karjac14.github.io/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/karjac14/karjac14.github.io/teams",
+            "hooks_url": "https://api.github.com/repos/karjac14/karjac14.github.io/hooks",
+            "issue_events_url": "https://api.github.com/repos/karjac14/karjac14.github.io/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/karjac14/karjac14.github.io/events",
+            "assignees_url": "https://api.github.com/repos/karjac14/karjac14.github.io/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/karjac14/karjac14.github.io/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/karjac14/karjac14.github.io/tags",
+            "blobs_url": "https://api.github.com/repos/karjac14/karjac14.github.io/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/karjac14/karjac14.github.io/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/karjac14/karjac14.github.io/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/karjac14/karjac14.github.io/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/karjac14/karjac14.github.io/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/karjac14/karjac14.github.io/languages",
+            "stargazers_url": "https://api.github.com/repos/karjac14/karjac14.github.io/stargazers",
+            "contributors_url": "https://api.github.com/repos/karjac14/karjac14.github.io/contributors",
+            "subscribers_url": "https://api.github.com/repos/karjac14/karjac14.github.io/subscribers",
+            "subscription_url": "https://api.github.com/repos/karjac14/karjac14.github.io/subscription",
+            "commits_url": "https://api.github.com/repos/karjac14/karjac14.github.io/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/karjac14/karjac14.github.io/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/karjac14/karjac14.github.io/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/karjac14/karjac14.github.io/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/karjac14/karjac14.github.io/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/karjac14/karjac14.github.io/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/karjac14/karjac14.github.io/merges",
+            "archive_url": "https://api.github.com/repos/karjac14/karjac14.github.io/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/karjac14/karjac14.github.io/downloads",
+            "issues_url": "https://api.github.com/repos/karjac14/karjac14.github.io/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/karjac14/karjac14.github.io/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/karjac14/karjac14.github.io/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/karjac14/karjac14.github.io/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/karjac14/karjac14.github.io/labels{/name}",
+            "releases_url": "https://api.github.com/repos/karjac14/karjac14.github.io/releases{/id}",
+            "created_at": "2015-08-31T18:46:36Z",
+            "updated_at": "2015-08-31T18:46:36Z",
+            "pushed_at": "2015-09-28T18:31:59Z",
+            "git_url": "git://github.com/karjac14/karjac14.github.io.git",
+            "ssh_url": "git@github.com:karjac14/karjac14.github.io.git",
+            "clone_url": "https://github.com/karjac14/karjac14.github.io.git",
+            "svn_url": "https://github.com/karjac14/karjac14.github.io",
+            "homepage": null,
+            "size": 409,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 1,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 1,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/karjac14/karjac14.github.io/pulls/11"
+          },
+          "html": {
+            "href": "https://github.com/karjac14/karjac14.github.io/pull/11"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/karjac14/karjac14.github.io/issues/11"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/karjac14/karjac14.github.io/issues/11/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/karjac14/karjac14.github.io/pulls/11/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/karjac14/karjac14.github.io/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/karjac14/karjac14.github.io/pulls/11/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/karjac14/karjac14.github.io/statuses/8c443b3ea967af5c0eeb32aa58b63f62dd73b4b0"
+          }
+        },
+        "merged": false,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 1,
+        "additions": 11,
+        "deletions": 0,
+        "changed_files": 1
+      }
+    },
+    "public": true,
+    "created_at": "2015-09-28T18:32:07Z"
+  },
+  {
+    "id": "3187754348",
+    "type": "PushEvent",
+    "actor": {
+      "id": 8317978,
+      "login": "karjac14",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karjac14",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8317978?"
+    },
+    "repo": {
+      "id": 41693871,
+      "name": "karjac14/karjac14.github.io",
+      "url": "https://api.github.com/repos/karjac14/karjac14.github.io"
+    },
+    "payload": {
+      "push_id": 807865197,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-4",
+      "head": "8c443b3ea967af5c0eeb32aa58b63f62dd73b4b0",
+      "before": "41cd839ccd3dd878eb8ff5760c0ee495676049e4",
+      "commits": [
+        {
+          "sha": "8c443b3ea967af5c0eeb32aa58b63f62dd73b4b0",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "Create journal-week-4.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/karjac14/karjac14.github.io/commits/8c443b3ea967af5c0eeb32aa58b63f62dd73b4b0"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-09-28T18:31:59Z"
+  },
+  {
+    "id": "3187702352",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 8317978,
+      "login": "karjac14",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karjac14",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8317978?"
+    },
+    "repo": {
+      "id": 41693871,
+      "name": "karjac14/karjac14.github.io",
+      "url": "https://api.github.com/repos/karjac14/karjac14.github.io"
+    },
+    "payload": {
+      "ref": "journal-week-4",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-09-28T18:17:34Z"
+  },
+  {
+    "id": "3187678880",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 8317978,
+      "login": "karjac14",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karjac14",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8317978?"
+    },
+    "repo": {
+      "id": 41059030,
+      "name": "TIY-Durham/2015-FALL-FEE",
+      "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/304",
+        "labels_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/304/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/304/comments",
+        "events_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/304/events",
+        "html_url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues/304",
+        "id": 108213270,
+        "number": 304,
+        "title": "15 -- Karlo Eleuterio",
+        "user": {
+          "login": "karjac14",
+          "id": 8317978,
+          "avatar_url": "https://avatars.githubusercontent.com/u/8317978?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/karjac14",
+          "html_url": "https://github.com/karjac14",
+          "followers_url": "https://api.github.com/users/karjac14/followers",
+          "following_url": "https://api.github.com/users/karjac14/following{/other_user}",
+          "gists_url": "https://api.github.com/users/karjac14/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/karjac14/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/karjac14/subscriptions",
+          "organizations_url": "https://api.github.com/users/karjac14/orgs",
+          "repos_url": "https://api.github.com/users/karjac14/repos",
+          "events_url": "https://api.github.com/users/karjac14/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/karjac14/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/labels/GOLD%20STAR!",
+            "name": "GOLD STAR!",
+            "color": "fbca04"
+          },
+          {
+            "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/labels/Good%20Work",
+            "name": "Good Work",
+            "color": "159818"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": {
+          "login": "karjac14",
+          "id": 8317978,
+          "avatar_url": "https://avatars.githubusercontent.com/u/8317978?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/karjac14",
+          "html_url": "https://github.com/karjac14",
+          "followers_url": "https://api.github.com/users/karjac14/followers",
+          "following_url": "https://api.github.com/users/karjac14/following{/other_user}",
+          "gists_url": "https://api.github.com/users/karjac14/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/karjac14/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/karjac14/subscriptions",
+          "organizations_url": "https://api.github.com/users/karjac14/orgs",
+          "repos_url": "https://api.github.com/users/karjac14/repos",
+          "events_url": "https://api.github.com/users/karjac14/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/karjac14/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "milestone": {
+          "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/milestones/17",
+          "html_url": "https://github.com/TIY-Durham/2015-FALL-FEE/milestones/15%20--%20The%20Prin-Sass%20Bride",
+          "labels_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/milestones/17/labels",
+          "id": 1327530,
+          "number": 17,
+          "title": "15 -- The Prin-Sass Bride",
+          "description": "",
+          "creator": {
+            "login": "kellymurray",
+            "id": 7375716,
+            "avatar_url": "https://avatars.githubusercontent.com/u/7375716?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kellymurray",
+            "html_url": "https://github.com/kellymurray",
+            "followers_url": "https://api.github.com/users/kellymurray/followers",
+            "following_url": "https://api.github.com/users/kellymurray/following{/other_user}",
+            "gists_url": "https://api.github.com/users/kellymurray/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/kellymurray/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/kellymurray/subscriptions",
+            "organizations_url": "https://api.github.com/users/kellymurray/orgs",
+            "repos_url": "https://api.github.com/users/kellymurray/repos",
+            "events_url": "https://api.github.com/users/kellymurray/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/kellymurray/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "open_issues": 13,
+          "closed_issues": 2,
+          "state": "open",
+          "created_at": "2015-09-28T17:55:27Z",
+          "updated_at": "2015-09-28T18:10:59Z",
+          "due_on": "2015-09-28T04:00:00Z",
+          "closed_at": null
+        },
+        "comments": 4,
+        "created_at": "2015-09-24T21:00:11Z",
+        "updated_at": "2015-09-28T18:10:59Z",
+        "closed_at": "2015-09-28T18:10:59Z",
+        "body": "* [x] **Yak Shaving**\r\n  * _WIP Issue_\r\n    * link to PRs in:\r\n      * [x] `USERNAME.github.io`\r\n      * [x] `TIY-Assignments`\r\n      * [x] `TIY-Chessboard`\r\n  * _WIP Branch_\r\n    * [x] `USERNAME.github.io:journal-week-3`\r\n    * [x] `TIY-Assignments:15--prin-sass-bride`\r\n    * [x] `TIY-Chessboard:15--crossed-wires`\r\n  * _WIP Files_\r\n    * in `USERNAME.github.io:journal-week-3`\r\n      * `tutorial-week-3.md` or whatever\r\n    * in `TIY-Assignments:15--prin-sass-bride`\r\n      * `CheatSheets/HTML.md`\r\n      * `NestedAccordion/`\r\n        * `js/main.js`\r\n      * `MultiColumnForm/`\r\n        * `js/main.js`\r\n      * `ViewModeSwitch/`\r\n        * `js/*.js`\r\n    * in `TIY-Chessboard:15--crossed-wires`\r\n      * `js/`\r\n        * `controllers.js`\r\n        * `main.js` -- in case something breaks\r\n        * `tests.js` -- Controllers are hard to test\r\n      * `index.html` -- wire 'em up!\r\n* [x] **Journal, Week 3+ -- The Voyage Homework**\r\n* [x] **Reading HTML**\r\n  * [x] come to the `<table>`\r\n  * [x] no one ever reads the `<caption>`\r\n  * [x] `<col>` waiting? I got `<colgroup>`!\r\n  * [x] you've got a nice `<tbody>`\r\n  * [x] but don't let it go to your `<thead>`\r\n  * [x] shot in the `<tfoot>`\r\n  * [x] `<tr>` coffee?\r\n  * [x] `<td>` or not `<td>`?\r\n  * [x] that would be `<th>`\r\n* [x] **Blueprints: jQuery me this, Batman?**\r\n* [x] **The Chessboard: Crossed Wires**"
+      }
+    },
+    "public": true,
+    "created_at": "2015-09-28T18:10:59Z",
+    "org": {
+      "id": 13875036,
+      "login": "TIY-Durham",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TIY-Durham",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13875036?"
+    }
+  },
+  {
+    "id": "3187629890",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 8317978,
+      "login": "karjac14",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karjac14",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8317978?"
+    },
+    "repo": {
+      "id": 43317240,
+      "name": "karjac14/TIY-GitHub",
+      "url": "https://api.github.com/repos/karjac14/TIY-GitHub"
+    },
+    "payload": {
+      "ref": "master",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-09-28T17:57:18Z"
+  },
+  {
+    "id": "3187629877",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 8317978,
+      "login": "karjac14",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karjac14",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8317978?"
+    },
+    "repo": {
+      "id": 43317240,
+      "name": "karjac14/TIY-GitHub",
+      "url": "https://api.github.com/repos/karjac14/TIY-GitHub"
+    },
+    "payload": {
+      "ref": null,
+      "ref_type": "repository",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-09-28T17:57:17Z"
+  },
+  {
+    "id": "3187622800",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 8317978,
+      "login": "karjac14",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karjac14",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8317978?"
+    },
+    "repo": {
+      "id": 41693917,
+      "name": "karjac14/TIY-Assignments",
+      "url": "https://api.github.com/repos/karjac14/TIY-Assignments"
+    },
+    "payload": {
+      "ref": "16--planet-of-the-apis",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "Assignments",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-09-28T17:55:22Z"
+  },
+  {
+    "id": "3187616554",
+    "type": "PushEvent",
+    "actor": {
+      "id": 8317978,
+      "login": "karjac14",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karjac14",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8317978?"
+    },
+    "repo": {
+      "id": 41693917,
+      "name": "karjac14/TIY-Assignments",
+      "url": "https://api.github.com/repos/karjac14/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 807817271,
+      "size": 4,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "571b323c0e02e2c5f41811f060dc38681bce7f7b",
+      "before": "03e0c316521bf55a9382b28f1226f0f603b29086",
+      "commits": [
+        {
+          "sha": "35f328fd82c152f83a093db82f0841ace8db4edf",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "add jquery stuffs, goat attained",
+          "distinct": false,
+          "url": "https://api.github.com/repos/karjac14/TIY-Assignments/commits/35f328fd82c152f83a093db82f0841ace8db4edf"
+        },
+        {
+          "sha": "caaf310110cac8973230c7ae7acb8380ad44a9c2",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "Merge branch '15--prin-sass-bride' of https://github.com/karjac14/TIY-Assignments into 15--prin-sass-bride\n\n# Please enter a commit message to explain why this merge is necessary,\n# especially if it merges an updated upstream into a topic branch.\n#\n# Lines starting with '#' will be ignored, and an empty message aborts\n# the commit.",
+          "distinct": false,
+          "url": "https://api.github.com/repos/karjac14/TIY-Assignments/commits/caaf310110cac8973230c7ae7acb8380ad44a9c2"
+        },
+        {
+          "sha": "41f8f08c4578182fd03a258b7beb7bf5f0e91a06",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "update reading HTML",
+          "distinct": false,
+          "url": "https://api.github.com/repos/karjac14/TIY-Assignments/commits/41f8f08c4578182fd03a258b7beb7bf5f0e91a06"
+        },
+        {
+          "sha": "571b323c0e02e2c5f41811f060dc38681bce7f7b",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "Merge pull request #33 from karjac14/15--prin-sass-bride\n\n15  prin sass bride",
+          "distinct": true,
+          "url": "https://api.github.com/repos/karjac14/TIY-Assignments/commits/571b323c0e02e2c5f41811f060dc38681bce7f7b"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-09-28T17:53:34Z"
+  },
+  {
+    "id": "3187616546",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 8317978,
+      "login": "karjac14",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karjac14",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8317978?"
+    },
+    "repo": {
+      "id": 41693917,
+      "name": "karjac14/TIY-Assignments",
+      "url": "https://api.github.com/repos/karjac14/TIY-Assignments"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 33,
+      "pull_request": {
+        "url": "https://api.github.com/repos/karjac14/TIY-Assignments/pulls/33",
+        "id": 46087389,
+        "html_url": "https://github.com/karjac14/TIY-Assignments/pull/33",
+        "diff_url": "https://github.com/karjac14/TIY-Assignments/pull/33.diff",
+        "patch_url": "https://github.com/karjac14/TIY-Assignments/pull/33.patch",
+        "issue_url": "https://api.github.com/repos/karjac14/TIY-Assignments/issues/33",
+        "number": 33,
+        "state": "closed",
+        "locked": false,
+        "title": "15  prin sass bride",
+        "user": {
+          "login": "karjac14",
+          "id": 8317978,
+          "avatar_url": "https://avatars.githubusercontent.com/u/8317978?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/karjac14",
+          "html_url": "https://github.com/karjac14",
+          "followers_url": "https://api.github.com/users/karjac14/followers",
+          "following_url": "https://api.github.com/users/karjac14/following{/other_user}",
+          "gists_url": "https://api.github.com/users/karjac14/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/karjac14/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/karjac14/subscriptions",
+          "organizations_url": "https://api.github.com/users/karjac14/orgs",
+          "repos_url": "https://api.github.com/users/karjac14/repos",
+          "events_url": "https://api.github.com/users/karjac14/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/karjac14/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-09-26T18:59:23Z",
+        "updated_at": "2015-09-28T17:53:33Z",
+        "closed_at": "2015-09-28T17:53:33Z",
+        "merged_at": "2015-09-28T17:53:33Z",
+        "merge_commit_sha": "34209560b097c236527ffc8589462c9732046655",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/karjac14/TIY-Assignments/pulls/33/commits",
+        "review_comments_url": "https://api.github.com/repos/karjac14/TIY-Assignments/pulls/33/comments",
+        "review_comment_url": "https://api.github.com/repos/karjac14/TIY-Assignments/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/karjac14/TIY-Assignments/issues/33/comments",
+        "statuses_url": "https://api.github.com/repos/karjac14/TIY-Assignments/statuses/41f8f08c4578182fd03a258b7beb7bf5f0e91a06",
+        "head": {
+          "label": "karjac14:15--prin-sass-bride",
+          "ref": "15--prin-sass-bride",
+          "sha": "41f8f08c4578182fd03a258b7beb7bf5f0e91a06",
+          "user": {
+            "login": "karjac14",
+            "id": 8317978,
+            "avatar_url": "https://avatars.githubusercontent.com/u/8317978?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/karjac14",
+            "html_url": "https://github.com/karjac14",
+            "followers_url": "https://api.github.com/users/karjac14/followers",
+            "following_url": "https://api.github.com/users/karjac14/following{/other_user}",
+            "gists_url": "https://api.github.com/users/karjac14/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/karjac14/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/karjac14/subscriptions",
+            "organizations_url": "https://api.github.com/users/karjac14/orgs",
+            "repos_url": "https://api.github.com/users/karjac14/repos",
+            "events_url": "https://api.github.com/users/karjac14/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/karjac14/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 41693917,
+            "name": "TIY-Assignments",
+            "full_name": "karjac14/TIY-Assignments",
+            "owner": {
+              "login": "karjac14",
+              "id": 8317978,
+              "avatar_url": "https://avatars.githubusercontent.com/u/8317978?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/karjac14",
+              "html_url": "https://github.com/karjac14",
+              "followers_url": "https://api.github.com/users/karjac14/followers",
+              "following_url": "https://api.github.com/users/karjac14/following{/other_user}",
+              "gists_url": "https://api.github.com/users/karjac14/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/karjac14/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/karjac14/subscriptions",
+              "organizations_url": "https://api.github.com/users/karjac14/orgs",
+              "repos_url": "https://api.github.com/users/karjac14/repos",
+              "events_url": "https://api.github.com/users/karjac14/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/karjac14/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/karjac14/TIY-Assignments",
+            "description": "Assignments",
+            "fork": false,
+            "url": "https://api.github.com/repos/karjac14/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/karjac14/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/karjac14/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/karjac14/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/karjac14/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/karjac14/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/karjac14/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/karjac14/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/karjac14/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/karjac14/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/karjac14/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/karjac14/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/karjac14/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/karjac14/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/karjac14/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/karjac14/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/karjac14/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/karjac14/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/karjac14/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/karjac14/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/karjac14/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/karjac14/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/karjac14/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/karjac14/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/karjac14/TIY-Assignments/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/karjac14/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/karjac14/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/karjac14/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/karjac14/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/karjac14/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/karjac14/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/karjac14/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/karjac14/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/karjac14/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/karjac14/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/karjac14/TIY-Assignments/releases{/id}",
+            "created_at": "2015-08-31T18:47:29Z",
+            "updated_at": "2015-09-24T20:21:11Z",
+            "pushed_at": "2015-09-28T17:53:33Z",
+            "git_url": "git://github.com/karjac14/TIY-Assignments.git",
+            "ssh_url": "git@github.com:karjac14/TIY-Assignments.git",
+            "clone_url": "https://github.com/karjac14/TIY-Assignments.git",
+            "svn_url": "https://github.com/karjac14/TIY-Assignments",
+            "homepage": "",
+            "size": 10596,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "karjac14:master",
+          "ref": "master",
+          "sha": "03e0c316521bf55a9382b28f1226f0f603b29086",
+          "user": {
+            "login": "karjac14",
+            "id": 8317978,
+            "avatar_url": "https://avatars.githubusercontent.com/u/8317978?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/karjac14",
+            "html_url": "https://github.com/karjac14",
+            "followers_url": "https://api.github.com/users/karjac14/followers",
+            "following_url": "https://api.github.com/users/karjac14/following{/other_user}",
+            "gists_url": "https://api.github.com/users/karjac14/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/karjac14/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/karjac14/subscriptions",
+            "organizations_url": "https://api.github.com/users/karjac14/orgs",
+            "repos_url": "https://api.github.com/users/karjac14/repos",
+            "events_url": "https://api.github.com/users/karjac14/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/karjac14/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 41693917,
+            "name": "TIY-Assignments",
+            "full_name": "karjac14/TIY-Assignments",
+            "owner": {
+              "login": "karjac14",
+              "id": 8317978,
+              "avatar_url": "https://avatars.githubusercontent.com/u/8317978?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/karjac14",
+              "html_url": "https://github.com/karjac14",
+              "followers_url": "https://api.github.com/users/karjac14/followers",
+              "following_url": "https://api.github.com/users/karjac14/following{/other_user}",
+              "gists_url": "https://api.github.com/users/karjac14/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/karjac14/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/karjac14/subscriptions",
+              "organizations_url": "https://api.github.com/users/karjac14/orgs",
+              "repos_url": "https://api.github.com/users/karjac14/repos",
+              "events_url": "https://api.github.com/users/karjac14/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/karjac14/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/karjac14/TIY-Assignments",
+            "description": "Assignments",
+            "fork": false,
+            "url": "https://api.github.com/repos/karjac14/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/karjac14/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/karjac14/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/karjac14/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/karjac14/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/karjac14/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/karjac14/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/karjac14/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/karjac14/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/karjac14/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/karjac14/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/karjac14/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/karjac14/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/karjac14/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/karjac14/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/karjac14/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/karjac14/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/karjac14/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/karjac14/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/karjac14/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/karjac14/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/karjac14/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/karjac14/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/karjac14/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/karjac14/TIY-Assignments/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/karjac14/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/karjac14/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/karjac14/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/karjac14/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/karjac14/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/karjac14/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/karjac14/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/karjac14/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/karjac14/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/karjac14/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/karjac14/TIY-Assignments/releases{/id}",
+            "created_at": "2015-08-31T18:47:29Z",
+            "updated_at": "2015-09-24T20:21:11Z",
+            "pushed_at": "2015-09-28T17:53:33Z",
+            "git_url": "git://github.com/karjac14/TIY-Assignments.git",
+            "ssh_url": "git@github.com:karjac14/TIY-Assignments.git",
+            "clone_url": "https://github.com/karjac14/TIY-Assignments.git",
+            "svn_url": "https://github.com/karjac14/TIY-Assignments",
+            "homepage": "",
+            "size": 10596,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/karjac14/TIY-Assignments/pulls/33"
+          },
+          "html": {
+            "href": "https://github.com/karjac14/TIY-Assignments/pull/33"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/karjac14/TIY-Assignments/issues/33"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/karjac14/TIY-Assignments/issues/33/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/karjac14/TIY-Assignments/pulls/33/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/karjac14/TIY-Assignments/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/karjac14/TIY-Assignments/pulls/33/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/karjac14/TIY-Assignments/statuses/41f8f08c4578182fd03a258b7beb7bf5f0e91a06"
+          }
+        },
+        "merged": true,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": {
+          "login": "karjac14",
+          "id": 8317978,
+          "avatar_url": "https://avatars.githubusercontent.com/u/8317978?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/karjac14",
+          "html_url": "https://github.com/karjac14",
+          "followers_url": "https://api.github.com/users/karjac14/followers",
+          "following_url": "https://api.github.com/users/karjac14/following{/other_user}",
+          "gists_url": "https://api.github.com/users/karjac14/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/karjac14/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/karjac14/subscriptions",
+          "organizations_url": "https://api.github.com/users/karjac14/orgs",
+          "repos_url": "https://api.github.com/users/karjac14/repos",
+          "events_url": "https://api.github.com/users/karjac14/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/karjac14/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "comments": 1,
+        "review_comments": 0,
+        "commits": 3,
+        "additions": 564,
+        "deletions": 101,
+        "changed_files": 24
+      }
+    },
+    "public": true,
+    "created_at": "2015-09-28T17:53:33Z"
+  },
+  {
+    "id": "3187613244",
+    "type": "PushEvent",
+    "actor": {
+      "id": 8317978,
+      "login": "karjac14",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karjac14",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8317978?"
+    },
+    "repo": {
+      "id": 42898995,
+      "name": "karjac14/TIY-Chessboard",
+      "url": "https://api.github.com/repos/karjac14/TIY-Chessboard"
+    },
+    "payload": {
+      "push_id": 807816005,
+      "size": 9,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "f56462b8ccdb8843009d0e1313d77d4887cd1795",
+      "before": "4ca088c7180dff8e328c29ebc45b6a131733217a",
+      "commits": [
+        {
+          "sha": "7383beec4fcc398ce1a830bf5bec4f3fc1ca5ab7",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "setting up, cant link controller and main",
+          "distinct": false,
+          "url": "https://api.github.com/repos/karjac14/TIY-Chessboard/commits/7383beec4fcc398ce1a830bf5bec4f3fc1ca5ab7"
+        },
+        {
+          "sha": "ff05f7c6c938b2c8202d7e451502644e7c8ad244",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "errors linking main and controller",
+          "distinct": false,
+          "url": "https://api.github.com/repos/karjac14/TIY-Chessboard/commits/ff05f7c6c938b2c8202d7e451502644e7c8ad244"
+        },
+        {
+          "sha": "ad8bfe6a2b027e11e1d88990a69651f6f4679bac",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "chess pieces moving forward and back wohoo",
+          "distinct": false,
+          "url": "https://api.github.com/repos/karjac14/TIY-Chessboard/commits/ad8bfe6a2b027e11e1d88990a69651f6f4679bac"
+        },
+        {
+          "sha": "76f1496948d19057b7f90e1a13174615b5767873",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "working better in console log",
+          "distinct": false,
+          "url": "https://api.github.com/repos/karjac14/TIY-Chessboard/commits/76f1496948d19057b7f90e1a13174615b5767873"
+        },
+        {
+          "sha": "82c757613dce7564245060779a137d96e2808c19",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "rewind back next fastforawrd fully working in consolelog",
+          "distinct": false,
+          "url": "https://api.github.com/repos/karjac14/TIY-Chessboard/commits/82c757613dce7564245060779a137d96e2808c19"
+        },
+        {
+          "sha": "c7d4e29eaefdacadc11e77c79811006a022d468f",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "html elements moving now MVC FTW",
+          "distinct": false,
+          "url": "https://api.github.com/repos/karjac14/TIY-Chessboard/commits/c7d4e29eaefdacadc11e77c79811006a022d468f"
+        },
+        {
+          "sha": "39fee8ad05f123f969df3ee27f23594a916e67b1",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "chessboard 98 percent working, MWC links 100 percent working",
+          "distinct": false,
+          "url": "https://api.github.com/repos/karjac14/TIY-Chessboard/commits/39fee8ad05f123f969df3ee27f23594a916e67b1"
+        },
+        {
+          "sha": "105451fb6b29a1e3b3904859967027ebe2b73cef",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "pushing edits before merging",
+          "distinct": false,
+          "url": "https://api.github.com/repos/karjac14/TIY-Chessboard/commits/105451fb6b29a1e3b3904859967027ebe2b73cef"
+        },
+        {
+          "sha": "f56462b8ccdb8843009d0e1313d77d4887cd1795",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "Merge pull request #2 from karjac14/15--crossed-wires\n\n15  crossed wires",
+          "distinct": true,
+          "url": "https://api.github.com/repos/karjac14/TIY-Chessboard/commits/f56462b8ccdb8843009d0e1313d77d4887cd1795"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-09-28T17:52:36Z"
+  },
+  {
+    "id": "3187613184",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 8317978,
+      "login": "karjac14",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karjac14",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8317978?"
+    },
+    "repo": {
+      "id": 42898995,
+      "name": "karjac14/TIY-Chessboard",
+      "url": "https://api.github.com/repos/karjac14/TIY-Chessboard"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 2,
+      "pull_request": {
+        "url": "https://api.github.com/repos/karjac14/TIY-Chessboard/pulls/2",
+        "id": 46112332,
+        "html_url": "https://github.com/karjac14/TIY-Chessboard/pull/2",
+        "diff_url": "https://github.com/karjac14/TIY-Chessboard/pull/2.diff",
+        "patch_url": "https://github.com/karjac14/TIY-Chessboard/pull/2.patch",
+        "issue_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/issues/2",
+        "number": 2,
+        "state": "closed",
+        "locked": false,
+        "title": "15  crossed wires",
+        "user": {
+          "login": "karjac14",
+          "id": 8317978,
+          "avatar_url": "https://avatars.githubusercontent.com/u/8317978?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/karjac14",
+          "html_url": "https://github.com/karjac14",
+          "followers_url": "https://api.github.com/users/karjac14/followers",
+          "following_url": "https://api.github.com/users/karjac14/following{/other_user}",
+          "gists_url": "https://api.github.com/users/karjac14/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/karjac14/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/karjac14/subscriptions",
+          "organizations_url": "https://api.github.com/users/karjac14/orgs",
+          "repos_url": "https://api.github.com/users/karjac14/repos",
+          "events_url": "https://api.github.com/users/karjac14/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/karjac14/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-09-28T00:11:35Z",
+        "updated_at": "2015-09-28T17:52:35Z",
+        "closed_at": "2015-09-28T17:52:35Z",
+        "merged_at": "2015-09-28T17:52:35Z",
+        "merge_commit_sha": "02615c25b8402110df383ea04a0bfa5decf99ab6",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/pulls/2/commits",
+        "review_comments_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/pulls/2/comments",
+        "review_comment_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/issues/2/comments",
+        "statuses_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/statuses/105451fb6b29a1e3b3904859967027ebe2b73cef",
+        "head": {
+          "label": "karjac14:15--crossed-wires",
+          "ref": "15--crossed-wires",
+          "sha": "105451fb6b29a1e3b3904859967027ebe2b73cef",
+          "user": {
+            "login": "karjac14",
+            "id": 8317978,
+            "avatar_url": "https://avatars.githubusercontent.com/u/8317978?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/karjac14",
+            "html_url": "https://github.com/karjac14",
+            "followers_url": "https://api.github.com/users/karjac14/followers",
+            "following_url": "https://api.github.com/users/karjac14/following{/other_user}",
+            "gists_url": "https://api.github.com/users/karjac14/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/karjac14/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/karjac14/subscriptions",
+            "organizations_url": "https://api.github.com/users/karjac14/orgs",
+            "repos_url": "https://api.github.com/users/karjac14/repos",
+            "events_url": "https://api.github.com/users/karjac14/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/karjac14/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 42898995,
+            "name": "TIY-Chessboard",
+            "full_name": "karjac14/TIY-Chessboard",
+            "owner": {
+              "login": "karjac14",
+              "id": 8317978,
+              "avatar_url": "https://avatars.githubusercontent.com/u/8317978?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/karjac14",
+              "html_url": "https://github.com/karjac14",
+              "followers_url": "https://api.github.com/users/karjac14/followers",
+              "following_url": "https://api.github.com/users/karjac14/following{/other_user}",
+              "gists_url": "https://api.github.com/users/karjac14/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/karjac14/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/karjac14/subscriptions",
+              "organizations_url": "https://api.github.com/users/karjac14/orgs",
+              "repos_url": "https://api.github.com/users/karjac14/repos",
+              "events_url": "https://api.github.com/users/karjac14/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/karjac14/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/karjac14/TIY-Chessboard",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/karjac14/TIY-Chessboard",
+            "forks_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/forks",
+            "keys_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/teams",
+            "hooks_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/hooks",
+            "issue_events_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/events",
+            "assignees_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/tags",
+            "blobs_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/languages",
+            "stargazers_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/stargazers",
+            "contributors_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/contributors",
+            "subscribers_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/subscribers",
+            "subscription_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/subscription",
+            "commits_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/merges",
+            "archive_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/downloads",
+            "issues_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/labels{/name}",
+            "releases_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/releases{/id}",
+            "created_at": "2015-09-21T23:18:44Z",
+            "updated_at": "2015-09-24T20:54:49Z",
+            "pushed_at": "2015-09-28T17:52:35Z",
+            "git_url": "git://github.com/karjac14/TIY-Chessboard.git",
+            "ssh_url": "git@github.com:karjac14/TIY-Chessboard.git",
+            "clone_url": "https://github.com/karjac14/TIY-Chessboard.git",
+            "svn_url": "https://github.com/karjac14/TIY-Chessboard",
+            "homepage": null,
+            "size": 0,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "HTML",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "karjac14:master",
+          "ref": "master",
+          "sha": "4ca088c7180dff8e328c29ebc45b6a131733217a",
+          "user": {
+            "login": "karjac14",
+            "id": 8317978,
+            "avatar_url": "https://avatars.githubusercontent.com/u/8317978?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/karjac14",
+            "html_url": "https://github.com/karjac14",
+            "followers_url": "https://api.github.com/users/karjac14/followers",
+            "following_url": "https://api.github.com/users/karjac14/following{/other_user}",
+            "gists_url": "https://api.github.com/users/karjac14/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/karjac14/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/karjac14/subscriptions",
+            "organizations_url": "https://api.github.com/users/karjac14/orgs",
+            "repos_url": "https://api.github.com/users/karjac14/repos",
+            "events_url": "https://api.github.com/users/karjac14/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/karjac14/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 42898995,
+            "name": "TIY-Chessboard",
+            "full_name": "karjac14/TIY-Chessboard",
+            "owner": {
+              "login": "karjac14",
+              "id": 8317978,
+              "avatar_url": "https://avatars.githubusercontent.com/u/8317978?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/karjac14",
+              "html_url": "https://github.com/karjac14",
+              "followers_url": "https://api.github.com/users/karjac14/followers",
+              "following_url": "https://api.github.com/users/karjac14/following{/other_user}",
+              "gists_url": "https://api.github.com/users/karjac14/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/karjac14/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/karjac14/subscriptions",
+              "organizations_url": "https://api.github.com/users/karjac14/orgs",
+              "repos_url": "https://api.github.com/users/karjac14/repos",
+              "events_url": "https://api.github.com/users/karjac14/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/karjac14/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/karjac14/TIY-Chessboard",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/karjac14/TIY-Chessboard",
+            "forks_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/forks",
+            "keys_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/teams",
+            "hooks_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/hooks",
+            "issue_events_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/events",
+            "assignees_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/tags",
+            "blobs_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/languages",
+            "stargazers_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/stargazers",
+            "contributors_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/contributors",
+            "subscribers_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/subscribers",
+            "subscription_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/subscription",
+            "commits_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/merges",
+            "archive_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/downloads",
+            "issues_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/labels{/name}",
+            "releases_url": "https://api.github.com/repos/karjac14/TIY-Chessboard/releases{/id}",
+            "created_at": "2015-09-21T23:18:44Z",
+            "updated_at": "2015-09-24T20:54:49Z",
+            "pushed_at": "2015-09-28T17:52:35Z",
+            "git_url": "git://github.com/karjac14/TIY-Chessboard.git",
+            "ssh_url": "git@github.com:karjac14/TIY-Chessboard.git",
+            "clone_url": "https://github.com/karjac14/TIY-Chessboard.git",
+            "svn_url": "https://github.com/karjac14/TIY-Chessboard",
+            "homepage": null,
+            "size": 0,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "HTML",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/karjac14/TIY-Chessboard/pulls/2"
+          },
+          "html": {
+            "href": "https://github.com/karjac14/TIY-Chessboard/pull/2"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/karjac14/TIY-Chessboard/issues/2"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/karjac14/TIY-Chessboard/issues/2/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/karjac14/TIY-Chessboard/pulls/2/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/karjac14/TIY-Chessboard/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/karjac14/TIY-Chessboard/pulls/2/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/karjac14/TIY-Chessboard/statuses/105451fb6b29a1e3b3904859967027ebe2b73cef"
+          }
+        },
+        "merged": true,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": {
+          "login": "karjac14",
+          "id": 8317978,
+          "avatar_url": "https://avatars.githubusercontent.com/u/8317978?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/karjac14",
+          "html_url": "https://github.com/karjac14",
+          "followers_url": "https://api.github.com/users/karjac14/followers",
+          "following_url": "https://api.github.com/users/karjac14/following{/other_user}",
+          "gists_url": "https://api.github.com/users/karjac14/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/karjac14/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/karjac14/subscriptions",
+          "organizations_url": "https://api.github.com/users/karjac14/orgs",
+          "repos_url": "https://api.github.com/users/karjac14/repos",
+          "events_url": "https://api.github.com/users/karjac14/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/karjac14/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "comments": 0,
+        "review_comments": 1,
+        "commits": 8,
+        "additions": 379,
+        "deletions": 87,
+        "changed_files": 4
+      }
+    },
+    "public": true,
+    "created_at": "2015-09-28T17:52:35Z"
+  },
+  {
+    "id": "3187604290",
+    "type": "PushEvent",
+    "actor": {
+      "id": 8317978,
+      "login": "karjac14",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karjac14",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8317978?"
+    },
+    "repo": {
+      "id": 42898995,
+      "name": "karjac14/TIY-Chessboard",
+      "url": "https://api.github.com/repos/karjac14/TIY-Chessboard"
+    },
+    "payload": {
+      "push_id": 807812830,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/15--crossed-wires",
+      "head": "105451fb6b29a1e3b3904859967027ebe2b73cef",
+      "before": "39fee8ad05f123f969df3ee27f23594a916e67b1",
+      "commits": [
+        {
+          "sha": "105451fb6b29a1e3b3904859967027ebe2b73cef",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "pushing edits before merging",
+          "distinct": true,
+          "url": "https://api.github.com/repos/karjac14/TIY-Chessboard/commits/105451fb6b29a1e3b3904859967027ebe2b73cef"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-09-28T17:50:02Z"
+  },
+  {
+    "id": "3187525241",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 8317978,
+      "login": "karjac14",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karjac14",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8317978?"
+    },
+    "repo": {
+      "id": 41059030,
+      "name": "TIY-Durham/2015-FALL-FEE",
+      "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/317",
+        "labels_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/317/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/317/comments",
+        "events_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/317/events",
+        "html_url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues/317",
+        "id": 108705998,
+        "number": 317,
+        "title": "16 -- Karlo Eleuterio",
+        "user": {
+          "login": "karjac14",
+          "id": 8317978,
+          "avatar_url": "https://avatars.githubusercontent.com/u/8317978?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/karjac14",
+          "html_url": "https://github.com/karjac14",
+          "followers_url": "https://api.github.com/users/karjac14/followers",
+          "following_url": "https://api.github.com/users/karjac14/following{/other_user}",
+          "gists_url": "https://api.github.com/users/karjac14/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/karjac14/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/karjac14/subscriptions",
+          "organizations_url": "https://api.github.com/users/karjac14/orgs",
+          "repos_url": "https://api.github.com/users/karjac14/repos",
+          "events_url": "https://api.github.com/users/karjac14/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/karjac14/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2015-09-28T17:26:48Z",
+        "updated_at": "2015-09-28T17:26:48Z",
+        "closed_at": null,
+        "body": "* **Yak-Shaving**\r\n  * [ ] Create a _WIP Issue_ in the class repo\r\n  * [ ] **MERGE ALL YOUR OPEN PRs!**\r\n  * [ ] Create a _WIP Branch_ in:\r\n    * [ ] `USERNAME.github.io` named `journal-week-4` from `master`\r\n    * [ ] `TIY-Assignments` named `16--planet-of-the-apis` from `master`\r\n    * [ ] `TIY-GitHub` named `yak-shaving` from `master`\r\n  * [ ] Create or update the following _WIP Files_ in:\r\n    * `USERNAME.github.io:journal-week-4`\r\n      * `journal-week-4.md` or something creative\r\n      * `tutorial-week-4.md` or something creative\r\n    * `TIY-Assignments:16-planet-of-the-apis`\r\n      * `CheatSheets/GitHubAPI.md` -- Did you have a **Starting Point**?\r\n      * `ProductPage/` -- use `yo h5bp` in here...\r\n        * CREATE: `specs/` -- for Skitching the following:\r\n          * `full--desktop.png`\r\n          * `full--mobile.png`\r\n          * `full--tablet.png`\r\n        * RENAME: `css/main.css` to `scss/main.scss`\r\n    * `TIY-GitHub:yak-shaving`\r\n      * `apis/`\r\n        * `github/`\r\n          * `users/`\r\n            * `octocat.json` -- from the API!\r\n      * `dist/`\r\n        * `.gitignore` -- ignoring _everything_\r\n      * `specs/` -- for the Skitching!\r\n        * `octocat--full.png`\r\n        * `octocat--*.png` -- whatever you want to call them\r\n        * `USERNAME--full.png`\r\n        * `USERNAME--*.png` -- more of the same\r\n      * `src/` -- starting with H5BP...!\r\n        * CREATE: `css/.gitignore` -- read my lips, no new CSS files\r\n        * RENAME: `css/main.css` to `scss/main.scss`\r\n        * CREATE: `scss/custom.scss`\r\n        * `index.html` -- no errors, please\r\n      * `package.json` -- via `npm init`; _not_ in `src/`\r\n  * [ ] Add comments to your _WIP Issue_ with links to your PRs in:\r\n    * [ ] `USERNAME.github.io` from `journal-week-4` into `master`\r\n    * [ ] `TIY-Assignments` from `16--planet-of-the-apis` into `master`\r\n    * [ ] `TIY-GitHub` from `yak-shaving` into `master`\r\n* **Journal, Week 4**\r\n  * [ ] Flag in the sand for _reflective_!\r\n  * [ ] Flag in the sand for _tutorial_!\r\n  * [ ] Peer review x2!\r\n  * [ ] Reviewed peers x2!\r\n* **Reading APIs: GitHub**\r\n  * [ ] Create `CheatSheets/GitHubAPI.md`\r\n  * [ ] Start with the **Starting Point**\r\n  * [ ] Add items to this checklist for The Questions\r\n  * [ ] Get to checkin' off boxes!\r\n* **GitHub Revolution**\r\n  * [ ] **Yak Shaving** complete!\r\n  * [ ] We gotta **Sass it up...!**\r\n  * [ ] Time for some **API Gymnastics**!\r\n  * [ ] Now just **Skitch this profile**!"
+      }
+    },
+    "public": true,
+    "created_at": "2015-09-28T17:26:48Z",
+    "org": {
+      "id": 13875036,
+      "login": "TIY-Durham",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TIY-Durham",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13875036?"
+    }
+  },
+  {
+    "id": "3185548403",
+    "type": "PushEvent",
+    "actor": {
+      "id": 8317978,
+      "login": "karjac14",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karjac14",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8317978?"
+    },
+    "repo": {
+      "id": 41693871,
+      "name": "karjac14/karjac14.github.io",
+      "url": "https://api.github.com/repos/karjac14/karjac14.github.io"
+    },
+    "payload": {
+      "push_id": 807030967,
+      "size": 16,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "41cd839ccd3dd878eb8ff5760c0ee495676049e4",
+      "before": "8123ab2ae8823e56ff1f8157409527c5f7206f39",
+      "commits": [
+        {
+          "sha": "7692b632538b77f45f09a752658133ea05545a6e",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "Flows of Ideas",
+          "distinct": false,
+          "url": "https://api.github.com/repos/karjac14/karjac14.github.io/commits/7692b632538b77f45f09a752658133ea05545a6e"
+        },
+        {
+          "sha": "bddcc02fcf781790fe997ded9864b928a200a525",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "Update journal-week-3.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/karjac14/karjac14.github.io/commits/bddcc02fcf781790fe997ded9864b928a200a525"
+        },
+        {
+          "sha": "b9c421b5626d1e4eec39d03d264be0227f572c5c",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "Delete journal-week-3.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/karjac14/karjac14.github.io/commits/b9c421b5626d1e4eec39d03d264be0227f572c5c"
+        },
+        {
+          "sha": "816be96e9c9d2ce6b01a15a67c318f4de0436ef1",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "Rough Draft W3",
+          "distinct": false,
+          "url": "https://api.github.com/repos/karjac14/karjac14.github.io/commits/816be96e9c9d2ce6b01a15a67c318f4de0436ef1"
+        },
+        {
+          "sha": "2517f946f2c3a32d35baa1901b692c8ea81b886a",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "Create tutorial-week-3.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/karjac14/karjac14.github.io/commits/2517f946f2c3a32d35baa1901b692c8ea81b886a"
+        },
+        {
+          "sha": "cb78c541fab983c95dfd1042b797bf5f298e47f7",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "Updated Tutorial wk03",
+          "distinct": false,
+          "url": "https://api.github.com/repos/karjac14/karjac14.github.io/commits/cb78c541fab983c95dfd1042b797bf5f298e47f7"
+        },
+        {
+          "sha": "c2cac12b9ec9b2b6b50e3bb1aee27fb7ba4137fc",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "Update tutorial-week-3.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/karjac14/karjac14.github.io/commits/c2cac12b9ec9b2b6b50e3bb1aee27fb7ba4137fc"
+        },
+        {
+          "sha": "6e9c50ab5a642fcc2494d1dae10445b6505eb7da",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "minor changes",
+          "distinct": false,
+          "url": "https://api.github.com/repos/karjac14/karjac14.github.io/commits/6e9c50ab5a642fcc2494d1dae10445b6505eb7da"
+        },
+        {
+          "sha": "764a3f272fd7d3583d5ae53b79f1f18afcc55131",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "Update journal-week-3.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/karjac14/karjac14.github.io/commits/764a3f272fd7d3583d5ae53b79f1f18afcc55131"
+        },
+        {
+          "sha": "5e40caa0d8da026f8487703676e1ed3cb8a1115d",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "Update tutorial-week-3.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/karjac14/karjac14.github.io/commits/5e40caa0d8da026f8487703676e1ed3cb8a1115d"
+        },
+        {
+          "sha": "56742dd203843b90d5af6900cde7b8bca60afe1f",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "added what is the problem",
+          "distinct": false,
+          "url": "https://api.github.com/repos/karjac14/karjac14.github.io/commits/56742dd203843b90d5af6900cde7b8bca60afe1f"
+        },
+        {
+          "sha": "9103eb38c6dac0cce87ab0a24037a8c18ac4aea0",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "Update journal-week-3.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/karjac14/karjac14.github.io/commits/9103eb38c6dac0cce87ab0a24037a8c18ac4aea0"
+        },
+        {
+          "sha": "1b8293d8454dc6f0e049eecf05f84231fb39a013",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "Update tutorial-week-3.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/karjac14/karjac14.github.io/commits/1b8293d8454dc6f0e049eecf05f84231fb39a013"
+        },
+        {
+          "sha": "a4583fed60c9bd511f752e5f9a15bcf57cba38e4",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "Update tutorial-week-3.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/karjac14/karjac14.github.io/commits/a4583fed60c9bd511f752e5f9a15bcf57cba38e4"
+        },
+        {
+          "sha": "571f3ecb334971a618c9def6b645a52955c315c9",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "Merge branch 'master' into journal-week-3\n\nConflicts:\n\tjournal-week-3.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/karjac14/karjac14.github.io/commits/571f3ecb334971a618c9def6b645a52955c315c9"
+        },
+        {
+          "sha": "41cd839ccd3dd878eb8ff5760c0ee495676049e4",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "Merge pull request #10 from karjac14/journal-week-3\n\nFlows of Ideas",
+          "distinct": true,
+          "url": "https://api.github.com/repos/karjac14/karjac14.github.io/commits/41cd839ccd3dd878eb8ff5760c0ee495676049e4"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-09-28T06:07:37Z"
+  },
+  {
+    "id": "3185548393",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 8317978,
+      "login": "karjac14",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karjac14",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8317978?"
+    },
+    "repo": {
+      "id": 41693871,
+      "name": "karjac14/karjac14.github.io",
+      "url": "https://api.github.com/repos/karjac14/karjac14.github.io"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 10,
+      "pull_request": {
+        "url": "https://api.github.com/repos/karjac14/karjac14.github.io/pulls/10",
+        "id": 45585331,
+        "html_url": "https://github.com/karjac14/karjac14.github.io/pull/10",
+        "diff_url": "https://github.com/karjac14/karjac14.github.io/pull/10.diff",
+        "patch_url": "https://github.com/karjac14/karjac14.github.io/pull/10.patch",
+        "issue_url": "https://api.github.com/repos/karjac14/karjac14.github.io/issues/10",
+        "number": 10,
+        "state": "closed",
+        "locked": false,
+        "title": "Flows of Ideas",
+        "user": {
+          "login": "karjac14",
+          "id": 8317978,
+          "avatar_url": "https://avatars.githubusercontent.com/u/8317978?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/karjac14",
+          "html_url": "https://github.com/karjac14",
+          "followers_url": "https://api.github.com/users/karjac14/followers",
+          "following_url": "https://api.github.com/users/karjac14/following{/other_user}",
+          "gists_url": "https://api.github.com/users/karjac14/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/karjac14/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/karjac14/subscriptions",
+          "organizations_url": "https://api.github.com/users/karjac14/orgs",
+          "repos_url": "https://api.github.com/users/karjac14/repos",
+          "events_url": "https://api.github.com/users/karjac14/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/karjac14/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-09-21T18:53:57Z",
+        "updated_at": "2015-09-28T06:07:36Z",
+        "closed_at": "2015-09-28T06:07:36Z",
+        "merged_at": "2015-09-28T06:07:36Z",
+        "merge_commit_sha": "12eb2a157ad46baf4c2757b4e5d2daa466746548",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/karjac14/karjac14.github.io/pulls/10/commits",
+        "review_comments_url": "https://api.github.com/repos/karjac14/karjac14.github.io/pulls/10/comments",
+        "review_comment_url": "https://api.github.com/repos/karjac14/karjac14.github.io/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/karjac14/karjac14.github.io/issues/10/comments",
+        "statuses_url": "https://api.github.com/repos/karjac14/karjac14.github.io/statuses/571f3ecb334971a618c9def6b645a52955c315c9",
+        "head": {
+          "label": "karjac14:journal-week-3",
+          "ref": "journal-week-3",
+          "sha": "571f3ecb334971a618c9def6b645a52955c315c9",
+          "user": {
+            "login": "karjac14",
+            "id": 8317978,
+            "avatar_url": "https://avatars.githubusercontent.com/u/8317978?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/karjac14",
+            "html_url": "https://github.com/karjac14",
+            "followers_url": "https://api.github.com/users/karjac14/followers",
+            "following_url": "https://api.github.com/users/karjac14/following{/other_user}",
+            "gists_url": "https://api.github.com/users/karjac14/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/karjac14/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/karjac14/subscriptions",
+            "organizations_url": "https://api.github.com/users/karjac14/orgs",
+            "repos_url": "https://api.github.com/users/karjac14/repos",
+            "events_url": "https://api.github.com/users/karjac14/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/karjac14/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 41693871,
+            "name": "karjac14.github.io",
+            "full_name": "karjac14/karjac14.github.io",
+            "owner": {
+              "login": "karjac14",
+              "id": 8317978,
+              "avatar_url": "https://avatars.githubusercontent.com/u/8317978?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/karjac14",
+              "html_url": "https://github.com/karjac14",
+              "followers_url": "https://api.github.com/users/karjac14/followers",
+              "following_url": "https://api.github.com/users/karjac14/following{/other_user}",
+              "gists_url": "https://api.github.com/users/karjac14/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/karjac14/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/karjac14/subscriptions",
+              "organizations_url": "https://api.github.com/users/karjac14/orgs",
+              "repos_url": "https://api.github.com/users/karjac14/repos",
+              "events_url": "https://api.github.com/users/karjac14/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/karjac14/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/karjac14/karjac14.github.io",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/karjac14/karjac14.github.io",
+            "forks_url": "https://api.github.com/repos/karjac14/karjac14.github.io/forks",
+            "keys_url": "https://api.github.com/repos/karjac14/karjac14.github.io/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/karjac14/karjac14.github.io/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/karjac14/karjac14.github.io/teams",
+            "hooks_url": "https://api.github.com/repos/karjac14/karjac14.github.io/hooks",
+            "issue_events_url": "https://api.github.com/repos/karjac14/karjac14.github.io/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/karjac14/karjac14.github.io/events",
+            "assignees_url": "https://api.github.com/repos/karjac14/karjac14.github.io/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/karjac14/karjac14.github.io/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/karjac14/karjac14.github.io/tags",
+            "blobs_url": "https://api.github.com/repos/karjac14/karjac14.github.io/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/karjac14/karjac14.github.io/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/karjac14/karjac14.github.io/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/karjac14/karjac14.github.io/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/karjac14/karjac14.github.io/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/karjac14/karjac14.github.io/languages",
+            "stargazers_url": "https://api.github.com/repos/karjac14/karjac14.github.io/stargazers",
+            "contributors_url": "https://api.github.com/repos/karjac14/karjac14.github.io/contributors",
+            "subscribers_url": "https://api.github.com/repos/karjac14/karjac14.github.io/subscribers",
+            "subscription_url": "https://api.github.com/repos/karjac14/karjac14.github.io/subscription",
+            "commits_url": "https://api.github.com/repos/karjac14/karjac14.github.io/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/karjac14/karjac14.github.io/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/karjac14/karjac14.github.io/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/karjac14/karjac14.github.io/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/karjac14/karjac14.github.io/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/karjac14/karjac14.github.io/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/karjac14/karjac14.github.io/merges",
+            "archive_url": "https://api.github.com/repos/karjac14/karjac14.github.io/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/karjac14/karjac14.github.io/downloads",
+            "issues_url": "https://api.github.com/repos/karjac14/karjac14.github.io/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/karjac14/karjac14.github.io/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/karjac14/karjac14.github.io/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/karjac14/karjac14.github.io/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/karjac14/karjac14.github.io/labels{/name}",
+            "releases_url": "https://api.github.com/repos/karjac14/karjac14.github.io/releases{/id}",
+            "created_at": "2015-08-31T18:46:36Z",
+            "updated_at": "2015-08-31T18:46:36Z",
+            "pushed_at": "2015-09-28T06:07:36Z",
+            "git_url": "git://github.com/karjac14/karjac14.github.io.git",
+            "ssh_url": "git@github.com:karjac14/karjac14.github.io.git",
+            "clone_url": "https://github.com/karjac14/karjac14.github.io.git",
+            "svn_url": "https://github.com/karjac14/karjac14.github.io",
+            "homepage": null,
+            "size": 409,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 1,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 1,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "karjac14:master",
+          "ref": "master",
+          "sha": "8123ab2ae8823e56ff1f8157409527c5f7206f39",
+          "user": {
+            "login": "karjac14",
+            "id": 8317978,
+            "avatar_url": "https://avatars.githubusercontent.com/u/8317978?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/karjac14",
+            "html_url": "https://github.com/karjac14",
+            "followers_url": "https://api.github.com/users/karjac14/followers",
+            "following_url": "https://api.github.com/users/karjac14/following{/other_user}",
+            "gists_url": "https://api.github.com/users/karjac14/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/karjac14/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/karjac14/subscriptions",
+            "organizations_url": "https://api.github.com/users/karjac14/orgs",
+            "repos_url": "https://api.github.com/users/karjac14/repos",
+            "events_url": "https://api.github.com/users/karjac14/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/karjac14/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 41693871,
+            "name": "karjac14.github.io",
+            "full_name": "karjac14/karjac14.github.io",
+            "owner": {
+              "login": "karjac14",
+              "id": 8317978,
+              "avatar_url": "https://avatars.githubusercontent.com/u/8317978?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/karjac14",
+              "html_url": "https://github.com/karjac14",
+              "followers_url": "https://api.github.com/users/karjac14/followers",
+              "following_url": "https://api.github.com/users/karjac14/following{/other_user}",
+              "gists_url": "https://api.github.com/users/karjac14/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/karjac14/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/karjac14/subscriptions",
+              "organizations_url": "https://api.github.com/users/karjac14/orgs",
+              "repos_url": "https://api.github.com/users/karjac14/repos",
+              "events_url": "https://api.github.com/users/karjac14/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/karjac14/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/karjac14/karjac14.github.io",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/karjac14/karjac14.github.io",
+            "forks_url": "https://api.github.com/repos/karjac14/karjac14.github.io/forks",
+            "keys_url": "https://api.github.com/repos/karjac14/karjac14.github.io/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/karjac14/karjac14.github.io/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/karjac14/karjac14.github.io/teams",
+            "hooks_url": "https://api.github.com/repos/karjac14/karjac14.github.io/hooks",
+            "issue_events_url": "https://api.github.com/repos/karjac14/karjac14.github.io/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/karjac14/karjac14.github.io/events",
+            "assignees_url": "https://api.github.com/repos/karjac14/karjac14.github.io/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/karjac14/karjac14.github.io/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/karjac14/karjac14.github.io/tags",
+            "blobs_url": "https://api.github.com/repos/karjac14/karjac14.github.io/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/karjac14/karjac14.github.io/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/karjac14/karjac14.github.io/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/karjac14/karjac14.github.io/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/karjac14/karjac14.github.io/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/karjac14/karjac14.github.io/languages",
+            "stargazers_url": "https://api.github.com/repos/karjac14/karjac14.github.io/stargazers",
+            "contributors_url": "https://api.github.com/repos/karjac14/karjac14.github.io/contributors",
+            "subscribers_url": "https://api.github.com/repos/karjac14/karjac14.github.io/subscribers",
+            "subscription_url": "https://api.github.com/repos/karjac14/karjac14.github.io/subscription",
+            "commits_url": "https://api.github.com/repos/karjac14/karjac14.github.io/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/karjac14/karjac14.github.io/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/karjac14/karjac14.github.io/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/karjac14/karjac14.github.io/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/karjac14/karjac14.github.io/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/karjac14/karjac14.github.io/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/karjac14/karjac14.github.io/merges",
+            "archive_url": "https://api.github.com/repos/karjac14/karjac14.github.io/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/karjac14/karjac14.github.io/downloads",
+            "issues_url": "https://api.github.com/repos/karjac14/karjac14.github.io/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/karjac14/karjac14.github.io/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/karjac14/karjac14.github.io/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/karjac14/karjac14.github.io/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/karjac14/karjac14.github.io/labels{/name}",
+            "releases_url": "https://api.github.com/repos/karjac14/karjac14.github.io/releases{/id}",
+            "created_at": "2015-08-31T18:46:36Z",
+            "updated_at": "2015-08-31T18:46:36Z",
+            "pushed_at": "2015-09-28T06:07:36Z",
+            "git_url": "git://github.com/karjac14/karjac14.github.io.git",
+            "ssh_url": "git@github.com:karjac14/karjac14.github.io.git",
+            "clone_url": "https://github.com/karjac14/karjac14.github.io.git",
+            "svn_url": "https://github.com/karjac14/karjac14.github.io",
+            "homepage": null,
+            "size": 409,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 1,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 1,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/karjac14/karjac14.github.io/pulls/10"
+          },
+          "html": {
+            "href": "https://github.com/karjac14/karjac14.github.io/pull/10"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/karjac14/karjac14.github.io/issues/10"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/karjac14/karjac14.github.io/issues/10/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/karjac14/karjac14.github.io/pulls/10/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/karjac14/karjac14.github.io/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/karjac14/karjac14.github.io/pulls/10/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/karjac14/karjac14.github.io/statuses/571f3ecb334971a618c9def6b645a52955c315c9"
+          }
+        },
+        "merged": true,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": {
+          "login": "karjac14",
+          "id": 8317978,
+          "avatar_url": "https://avatars.githubusercontent.com/u/8317978?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/karjac14",
+          "html_url": "https://github.com/karjac14",
+          "followers_url": "https://api.github.com/users/karjac14/followers",
+          "following_url": "https://api.github.com/users/karjac14/following{/other_user}",
+          "gists_url": "https://api.github.com/users/karjac14/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/karjac14/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/karjac14/subscriptions",
+          "organizations_url": "https://api.github.com/users/karjac14/orgs",
+          "repos_url": "https://api.github.com/users/karjac14/repos",
+          "events_url": "https://api.github.com/users/karjac14/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/karjac14/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "comments": 7,
+        "review_comments": 0,
+        "commits": 15,
+        "additions": 36,
+        "deletions": 0,
+        "changed_files": 2
+      }
+    },
+    "public": true,
+    "created_at": "2015-09-28T06:07:36Z"
+  },
+  {
+    "id": "3185547721",
+    "type": "PushEvent",
+    "actor": {
+      "id": 8317978,
+      "login": "karjac14",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karjac14",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8317978?"
+    },
+    "repo": {
+      "id": 41693871,
+      "name": "karjac14/karjac14.github.io",
+      "url": "https://api.github.com/repos/karjac14/karjac14.github.io"
+    },
+    "payload": {
+      "push_id": 807030679,
+      "size": 3,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-3",
+      "head": "571f3ecb334971a618c9def6b645a52955c315c9",
+      "before": "a4583fed60c9bd511f752e5f9a15bcf57cba38e4",
+      "commits": [
+        {
+          "sha": "911168108f03ba5289af2c91bd726b0026cdf311",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "first draft",
+          "distinct": false,
+          "url": "https://api.github.com/repos/karjac14/karjac14.github.io/commits/911168108f03ba5289af2c91bd726b0026cdf311"
+        },
+        {
+          "sha": "8123ab2ae8823e56ff1f8157409527c5f7206f39",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "rough draft",
+          "distinct": false,
+          "url": "https://api.github.com/repos/karjac14/karjac14.github.io/commits/8123ab2ae8823e56ff1f8157409527c5f7206f39"
+        },
+        {
+          "sha": "571f3ecb334971a618c9def6b645a52955c315c9",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "Merge branch 'master' into journal-week-3\n\nConflicts:\n\tjournal-week-3.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/karjac14/karjac14.github.io/commits/571f3ecb334971a618c9def6b645a52955c315c9"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-09-28T06:07:08Z"
+  },
+  {
+    "id": "3185542306",
+    "type": "PushEvent",
+    "actor": {
+      "id": 8317978,
+      "login": "karjac14",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karjac14",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8317978?"
+    },
+    "repo": {
+      "id": 41693917,
+      "name": "karjac14/TIY-Assignments",
+      "url": "https://api.github.com/repos/karjac14/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 807028571,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/15--prin-sass-bride",
+      "head": "41f8f08c4578182fd03a258b7beb7bf5f0e91a06",
+      "before": "caaf310110cac8973230c7ae7acb8380ad44a9c2",
+      "commits": [
+        {
+          "sha": "41f8f08c4578182fd03a258b7beb7bf5f0e91a06",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "update reading HTML",
+          "distinct": true,
+          "url": "https://api.github.com/repos/karjac14/TIY-Assignments/commits/41f8f08c4578182fd03a258b7beb7bf5f0e91a06"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-09-28T06:03:23Z"
+  },
+  {
+    "id": "3185532252",
+    "type": "PushEvent",
+    "actor": {
+      "id": 8317978,
+      "login": "karjac14",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karjac14",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8317978?"
+    },
+    "repo": {
+      "id": 41693871,
+      "name": "karjac14/karjac14.github.io",
+      "url": "https://api.github.com/repos/karjac14/karjac14.github.io"
+    },
+    "payload": {
+      "push_id": 807024535,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-3",
+      "head": "a4583fed60c9bd511f752e5f9a15bcf57cba38e4",
+      "before": "1b8293d8454dc6f0e049eecf05f84231fb39a013",
+      "commits": [
+        {
+          "sha": "a4583fed60c9bd511f752e5f9a15bcf57cba38e4",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "Update tutorial-week-3.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/karjac14/karjac14.github.io/commits/a4583fed60c9bd511f752e5f9a15bcf57cba38e4"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-09-28T05:55:59Z"
+  },
+  {
+    "id": "3185511653",
+    "type": "PushEvent",
+    "actor": {
+      "id": 8317978,
+      "login": "karjac14",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karjac14",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8317978?"
+    },
+    "repo": {
+      "id": 42898995,
+      "name": "karjac14/TIY-Chessboard",
+      "url": "https://api.github.com/repos/karjac14/TIY-Chessboard"
+    },
+    "payload": {
+      "push_id": 807016130,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/15--crossed-wires",
+      "head": "39fee8ad05f123f969df3ee27f23594a916e67b1",
+      "before": "c7d4e29eaefdacadc11e77c79811006a022d468f",
+      "commits": [
+        {
+          "sha": "39fee8ad05f123f969df3ee27f23594a916e67b1",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "chessboard 98 percent working, MWC links 100 percent working",
+          "distinct": true,
+          "url": "https://api.github.com/repos/karjac14/TIY-Chessboard/commits/39fee8ad05f123f969df3ee27f23594a916e67b1"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-09-28T05:39:55Z"
+  },
+  {
+    "id": "3185492030",
+    "type": "PushEvent",
+    "actor": {
+      "id": 8317978,
+      "login": "karjac14",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karjac14",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8317978?"
+    },
+    "repo": {
+      "id": 42898995,
+      "name": "karjac14/TIY-Chessboard",
+      "url": "https://api.github.com/repos/karjac14/TIY-Chessboard"
+    },
+    "payload": {
+      "push_id": 807008100,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/15--crossed-wires",
+      "head": "c7d4e29eaefdacadc11e77c79811006a022d468f",
+      "before": "82c757613dce7564245060779a137d96e2808c19",
+      "commits": [
+        {
+          "sha": "c7d4e29eaefdacadc11e77c79811006a022d468f",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "html elements moving now MVC FTW",
+          "distinct": true,
+          "url": "https://api.github.com/repos/karjac14/TIY-Chessboard/commits/c7d4e29eaefdacadc11e77c79811006a022d468f"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-09-28T05:24:53Z"
+  },
+  {
+    "id": "3185411028",
+    "type": "PushEvent",
+    "actor": {
+      "id": 8317978,
+      "login": "karjac14",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karjac14",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8317978?"
+    },
+    "repo": {
+      "id": 42898995,
+      "name": "karjac14/TIY-Chessboard",
+      "url": "https://api.github.com/repos/karjac14/TIY-Chessboard"
+    },
+    "payload": {
+      "push_id": 806975156,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/15--crossed-wires",
+      "head": "82c757613dce7564245060779a137d96e2808c19",
+      "before": "76f1496948d19057b7f90e1a13174615b5767873",
+      "commits": [
+        {
+          "sha": "82c757613dce7564245060779a137d96e2808c19",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "rewind back next fastforawrd fully working in consolelog",
+          "distinct": true,
+          "url": "https://api.github.com/repos/karjac14/TIY-Chessboard/commits/82c757613dce7564245060779a137d96e2808c19"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-09-28T04:13:24Z"
+  },
+  {
+    "id": "3185358807",
+    "type": "PushEvent",
+    "actor": {
+      "id": 8317978,
+      "login": "karjac14",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karjac14",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8317978?"
+    },
+    "repo": {
+      "id": 42898995,
+      "name": "karjac14/TIY-Chessboard",
+      "url": "https://api.github.com/repos/karjac14/TIY-Chessboard"
+    },
+    "payload": {
+      "push_id": 806954816,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/15--crossed-wires",
+      "head": "76f1496948d19057b7f90e1a13174615b5767873",
+      "before": "ad8bfe6a2b027e11e1d88990a69651f6f4679bac",
+      "commits": [
+        {
+          "sha": "76f1496948d19057b7f90e1a13174615b5767873",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "working better in console log",
+          "distinct": true,
+          "url": "https://api.github.com/repos/karjac14/TIY-Chessboard/commits/76f1496948d19057b7f90e1a13174615b5767873"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-09-28T03:29:30Z"
+  },
+  {
+    "id": "3185251193",
+    "type": "PushEvent",
+    "actor": {
+      "id": 8317978,
+      "login": "karjac14",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karjac14",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8317978?"
+    },
+    "repo": {
+      "id": 42898995,
+      "name": "karjac14/TIY-Chessboard",
+      "url": "https://api.github.com/repos/karjac14/TIY-Chessboard"
+    },
+    "payload": {
+      "push_id": 806910838,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/15--crossed-wires",
+      "head": "ad8bfe6a2b027e11e1d88990a69651f6f4679bac",
+      "before": "ff05f7c6c938b2c8202d7e451502644e7c8ad244",
+      "commits": [
+        {
+          "sha": "ad8bfe6a2b027e11e1d88990a69651f6f4679bac",
+          "author": {
+            "email": "karloe@gmail.com",
+            "name": "Karlo Eleuterio"
+          },
+          "message": "chess pieces moving forward and back wohoo",
+          "distinct": true,
+          "url": "https://api.github.com/repos/karjac14/TIY-Chessboard/commits/ad8bfe6a2b027e11e1d88990a69651f6f4679bac"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-09-28T01:56:57Z"
+  },
+  {
+    "id": "3185144281",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 8317978,
+      "login": "karjac14",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karjac14",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8317978?"
+    },
+    "repo": {
+      "id": 41059030,
+      "name": "TIY-Durham/2015-FALL-FEE",
+      "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/304",
+        "labels_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/304/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/304/comments",
+        "events_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/304/events",
+        "html_url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues/304",
+        "id": 108213270,
+        "number": 304,
+        "title": "15 -- Karlo Eleuterio",
+        "user": {
+          "login": "karjac14",
+          "id": 8317978,
+          "avatar_url": "https://avatars.githubusercontent.com/u/8317978?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/karjac14",
+          "html_url": "https://github.com/karjac14",
+          "followers_url": "https://api.github.com/users/karjac14/followers",
+          "following_url": "https://api.github.com/users/karjac14/following{/other_user}",
+          "gists_url": "https://api.github.com/users/karjac14/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/karjac14/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/karjac14/subscriptions",
+          "organizations_url": "https://api.github.com/users/karjac14/orgs",
+          "repos_url": "https://api.github.com/users/karjac14/repos",
+          "events_url": "https://api.github.com/users/karjac14/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/karjac14/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-09-24T21:00:11Z",
+        "updated_at": "2015-09-28T00:12:17Z",
+        "closed_at": null,
+        "body": "* [ ] **Yak Shaving**\r\n  * _WIP Issue_\r\n    * link to PRs in:\r\n      * [ ] `USERNAME.github.io`\r\n      * [ ] `TIY-Assignments`\r\n      * [ ] `TIY-Chessboard`\r\n  * _WIP Branch_\r\n    * [ ] `USERNAME.github.io:journal-week-3`\r\n    * [ ] `TIY-Assignments:15--prin-sass-bride`\r\n    * [ ] `TIY-Chessboard:15--crossed-wires`\r\n  * _WIP Files_\r\n    * in `USERNAME.github.io:journal-week-3`\r\n      * `tutorial-week-3.md` or whatever\r\n    * in `TIY-Assignments:15--prin-sass-bride`\r\n      * `CheatSheets/HTML.md`\r\n      * `NestedAccordion/`\r\n        * `js/main.js`\r\n      * `MultiColumnForm/`\r\n        * `js/main.js`\r\n      * `ViewModeSwitch/`\r\n        * `js/*.js`\r\n    * in `TIY-Chessboard:15--crossed-wires`\r\n      * `js/`\r\n        * `controllers.js`\r\n        * `main.js` -- in case something breaks\r\n        * `tests.js` -- Controllers are hard to test\r\n      * `index.html` -- wire 'em up!\r\n* [ ] **Journal, Week 3+ -- The Voyage Homework**\r\n* [ ] **Reading HTML**\r\n  * [ ] come to the `<table>`\r\n  * [ ] no one ever reads the `<caption>`\r\n  * [ ] `<col>` waiting? I got `<colgroup>`!\r\n  * [ ] you've got a nice `<tbody>`\r\n  * [ ] but don't let it go to your `<thead>`\r\n  * [ ] shot in the `<tfoot>`\r\n  * [ ] `<tr>` coffee?\r\n  * [ ] `<td>` or not `<td>`?\r\n  * [ ] that would be `<th>`\r\n* [ ] **Blueprints: jQuery me this, Batman?**\r\n* [ ] **The Chessboard: Crossed Wires**"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/comments/143606213",
+        "html_url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues/304#issuecomment-143606213",
+        "issue_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/304",
+        "id": 143606213,
+        "user": {
+          "login": "karjac14",
+          "id": 8317978,
+          "avatar_url": "https://avatars.githubusercontent.com/u/8317978?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/karjac14",
+          "html_url": "https://github.com/karjac14",
+          "followers_url": "https://api.github.com/users/karjac14/followers",
+          "following_url": "https://api.github.com/users/karjac14/following{/other_user}",
+          "gists_url": "https://api.github.com/users/karjac14/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/karjac14/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/karjac14/subscriptions",
+          "organizations_url": "https://api.github.com/users/karjac14/orgs",
+          "repos_url": "https://api.github.com/users/karjac14/repos",
+          "events_url": "https://api.github.com/users/karjac14/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/karjac14/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-09-28T00:12:17Z",
+        "updated_at": "2015-09-28T00:12:17Z",
+        "body": "TIY-Chessboard PR Link:\r\nhttps://github.com/karjac14/TIY-Chessboard/pull/2"
+      }
+    },
+    "public": true,
+    "created_at": "2015-09-28T00:12:17Z",
+    "org": {
+      "id": 13875036,
+      "login": "TIY-Durham",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TIY-Durham",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13875036?"
+    }
+  }
+]
