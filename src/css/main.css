@@ -77,8 +77,92 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@font-face {
+  font-family: 'octicons';
+  src: font-url("octicons.eot?#iefix") format("embedded-opentype"), font-url("octicons.woff") format("woff"), font-url("octicons.ttf") format("truetype"), font-url("octicons.svg#octicons") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+*, *::after, *::before {
+  box-sizing: border-box; }
+
 body {
-  list-style: none; }
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto; }
+  body .container {
+    width: 1030px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+    border: 1px solid #AAAAAA; }
+    body .container .prof-column {
+      display: inline-block;
+      width: 230px;
+      height: 1100px;
+      border: 1px solid #AAAAAA;
+      margin: 20px 5px; }
+      body .container .prof-column .prof-avatar {
+        width: 100%;
+        border-bottom: 0.5px solid #AAAAAA; }
+        body .container .prof-column .prof-avatar img {
+          max-width: 100%;
+          max-height: 100%;
+          border: none;
+          border-radius: 15px; }
+        body .container .prof-column .prof-avatar h1 {
+          font-size: 2em;
+          font-weight: bold;
+          margin-top: -5px;
+          margin-bottom: -5px; }
+        body .container .prof-column .prof-avatar h2 {
+          font-size: 1.25em;
+          font-weight: 200;
+          margin-top: 0px;
+          margin-bottom: 0px; }
+      body .container .prof-column .prof-details {
+        padding-left: 0px;
+        border-bottom: 0.5px solid #AAAAAA; }
+        body .container .prof-column .prof-details li {
+          padding-left: 0px;
+          text-align: left;
+          list-style: none; }
+          body .container .prof-column .prof-details li#company::before {
+            font-family: 'octicons';
+            content: "\f037  "; }
+          body .container .prof-column .prof-details li#location::before {
+            font-family: 'octicons';
+            content: "\f060  "; }
+          body .container .prof-column .prof-details li#email::before {
+            font-family: 'octicons';
+            content: "\f03b  "; }
+          body .container .prof-column .prof-details li#blog::before {
+            font-family: 'octicons';
+            content: "\f05c  "; }
+          body .container .prof-column .prof-details li#created-at::before {
+            font-family: 'octicons';
+            content: "\f046  "; }
+      body .container .prof-column table {
+        width: 100%;
+        margin: 0px 0px;
+        text-align: center;
+        border-bottom: 0.5px solid #AAAAAA; }
+        body .container .prof-column table .value .num {
+          width: 33%;
+          font-size: 28px;
+          font-weight: 600;
+          color: #4176B9; }
+        body .container .prof-column table .desc .num {
+          font-size: 10px;
+          color: #AAAAAA; }
+    body .container .main-column {
+      display: inline-block;
+      width: 730px;
+      height: 1100px;
+      border: 1px solid #AAAAAA;
+      margin: 20px 5px; }
 
 /* ==========================================================================
    Helper classes
