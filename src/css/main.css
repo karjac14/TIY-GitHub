@@ -99,7 +99,7 @@ body {
     padding-right: auto;
     border: 1px solid #AAAAAA; }
     body .container .prof-column {
-      display: inline-block;
+      float: left;
       width: 230px;
       height: 1100px;
       border: 1px solid #AAAAAA;
@@ -158,11 +158,40 @@ body {
           font-size: 10px;
           color: #AAAAAA; }
     body .container .main-column {
-      display: inline-block;
       width: 730px;
       height: 1100px;
       border: 1px solid #AAAAAA;
-      margin: 20px 5px; }
+      margin: 20px 5px;
+      margin-left: 240px; }
+      body .container .main-column nav {
+        width: 100%; }
+        body .container .main-column nav .nav-lft {
+          height: 100%;
+          width: 500px;
+          display: inline-block;
+          text-align: left;
+          margin: 0px 0px; }
+          body .container .main-column nav .nav-lft button {
+            background: white;
+            border: none;
+            border-bottom: 1px solid #AAAAAA;
+            float: left; }
+            body .container .main-column nav .nav-lft button.active {
+              border: 1px solid #AAAAAA;
+              border-bottom: none; }
+            body .container .main-column nav .nav-lft button#contri::before {
+              font-family: 'octicons';
+              content: "\f06b  "; }
+            body .container .main-column nav .nav-lft button#repos::before {
+              font-family: 'octicons';
+              content: "\f001  "; }
+            body .container .main-column nav .nav-lft button#pubact::before {
+              font-family: 'octicons';
+              content: "\f034  "; }
+        body .container .main-column nav .nav-rgt {
+          width: 200px;
+          display: inline-block;
+          text-align: right; }
 
 /* ==========================================================================
    Helper classes
