@@ -26,13 +26,13 @@ body {
     margin-right: auto;
     padding-left: auto;
     padding-right: auto;
-    border: 1px solid #AAAAAA;
+    // border: 1px solid #AAAAAA;
     .prof-column {
-      // float: left;
-      display: inline-block;
+      float: left;
+      // display: inline-block;
       width: 230px;
       height: 1100px;
-      border: 1px solid #AAAAAA;
+      // border: 1px solid #AAAAAA;
       margin: 20px 5px;
       .prof-avatar {
         width: 100%;
@@ -109,12 +109,54 @@ body {
         } //table
     }
     .main-column {
-      display: inline-block;
-      // float: left;
+      // display: inline-block;
       width: 730px;
       height: 1100px;
-      border: 1px solid #AAAAAA;
+      // border: 1px solid #AAAAAA;
       margin: 20px 5px;
+      margin-left: 255px;
+      nav {
+        width: 100%;
+        height: auto;
+
+        .nav-lft {
+          height: 100%;
+          width: 400px;
+          display: inline-block;
+          text-align: left;
+          margin: 0px 0px;
+          button {
+            background: white;
+            border: none;
+            border-bottom: 1px solid #AAAAAA;
+            float: left;
+            &.active{
+              border: 1px solid #AAAAAA;
+              border-bottom: none;
+            }
+            &#contri::before {
+              font-family: 'octicons';
+              content: "\f06b  ";
+            }
+            &#repos::before {
+              font-family: 'octicons';
+              content: "\f001  ";
+            }
+            &#pubact::before {
+              font-family: 'octicons';
+              content: "\f034  ";
+            }
+          }
+        }
+        .nav-rgt {
+          border: none;
+          background: white;
+          width: 200px;
+          display: inline-block;
+          float: right;
+          text-align: right;
+        }
       }
+    } //main-column
     } //.container
   } //body
