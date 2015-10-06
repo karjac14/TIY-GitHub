@@ -91,8 +91,9 @@ body {
   margin-left: auto;
   margin-right: auto; }
   body .container {
-    width: 1030px;
+    width: 885px;
     height: auto;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     padding-left: auto;
@@ -101,10 +102,10 @@ body {
       float: left;
       width: 230px;
       height: 1100px;
-      margin: 20px 5px; }
+      margin: 0px 5px; }
       body .container .prof-column .prof-avatar {
         width: 100%;
-        border-bottom: 0.5px solid #AAAAAA; }
+        border-bottom: 1px solid #BBBBBB; }
         body .container .prof-column .prof-avatar img {
           max-width: 100%;
           max-height: 100%;
@@ -122,7 +123,7 @@ body {
           margin-bottom: 0px; }
       body .container .prof-column .prof-details {
         padding-left: 0px;
-        border-bottom: 0.5px solid #AAAAAA; }
+        border-bottom: 1px solid #BBBBBB; }
         body .container .prof-column .prof-details li {
           padding-left: 0px;
           text-align: left;
@@ -146,7 +147,7 @@ body {
         width: 100%;
         margin: 0px 0px;
         text-align: center;
-        border-bottom: 0.5px solid #AAAAAA; }
+        border-bottom: 1px solid #BBBBBB; }
         body .container .prof-column table .value .num {
           width: 33%;
           font-size: 28px;
@@ -156,7 +157,7 @@ body {
           font-size: 10px;
           color: #AAAAAA; }
     body .container .main-column {
-      width: 730px;
+      width: 630px;
       height: 1100px;
       margin: 20px 5px;
       margin-left: 255px; }
@@ -172,10 +173,10 @@ body {
           body .container .main-column nav .nav-lft button {
             background: white;
             border: none;
-            border-bottom: 1px solid #AAAAAA;
+            border-bottom: 1px solid #BBBBBB;
             float: left; }
-            body .container .main-column nav .nav-lft button.active {
-              border: 1px solid #AAAAAA;
+            body .container .main-column nav .nav-lft button.nav-active {
+              border: 1px solid #BBBBBB;
               border-bottom: none; }
             body .container .main-column nav .nav-lft button#contri::before {
               font-family: 'octicons';
@@ -187,10 +188,54 @@ body {
               font-family: 'octicons';
               content: "\f034  "; }
         body .container .main-column nav .nav-rgt {
+          border: none;
+          background: white;
           width: 200px;
           display: inline-block;
           float: right;
           text-align: right; }
+      body .container .main-column div#filter {
+        display: block;
+        width: 100%;
+        height: 40px;
+        margin: 30px 10px 0px;
+        border-bottom: 1px solid #BBBBBB; }
+        body .container .main-column div#filter #search {
+          float: left;
+          width: 400px;
+          margin: 0px 0px; }
+          body .container .main-column div#filter #search #search-field {
+            border-radius: 3px;
+            width: 250px; }
+          body .container .main-column div#filter #search #search-button {
+            widows: 100px; }
+        body .container .main-column div#filter #filter-options {
+          float: right; }
+          body .container .main-column div#filter #filter-options a {
+            display: inline-block; }
+      body .container .main-column table#repos-list {
+        margin-top: 30px;
+        width: 100%;
+        padding-top: 10%;
+        padding-bottom: 10%; }
+        body .container .main-column table#repos-list tr.repo-details {
+          padding-top: 30px; }
+          body .container .main-column table#repos-list tr.repo-details td {
+            padding-bottom: 10px;
+            min-height: 20px; }
+          body .container .main-column table#repos-list tr.repo-details td.repo-name {
+            font-size: 28px;
+            font-weight: 600;
+            color: #4176B9; }
+          body .container .main-column table#repos-list tr.repo-details td.repo-stats {
+            vertical-align: top;
+            font-size: 10px;
+            font-weight: 600;
+            color: #000000;
+            border-bottom: 1px solid #BBBBBB; }
+        body .container .main-column table#repos-list tr.repo-update td {
+          padding-bottom: 5%;
+          border-bottom: 1px solid #BBBBBB; }
 
 /* ==========================================================================
    Helper classes

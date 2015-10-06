@@ -3,27 +3,27 @@
 
 //loads #repos nav as .active upon html is ready
 $(document).ready(function(){
-  $('#repos').addClass("active");
+  $('#repos').addClass("nav-active");
 });
 
 // set #contri as active
 $('#contri').on('click', function () {
-  $(this).addClass("active");
-  $('#repos').removeClass("active");
-  $('#pubact').removeClass("active");
+  $(this).addClass("nav-active").blur();
+  $('#repos').removeClass("nav-active");
+  $('#pubact').removeClass("nav-active");
 });
 
 // set #pubact as active
 $('#pubact').on('click', function () {
-  $(this).addClass("active");
-  $('#contri').removeClass("active");
-  $('#repos').removeClass("active");
+  $(this).addClass("nav-active").blur();
+  $('#contri').removeClass("nav-active");
+  $('#repos').removeClass("nav-active");
 });
 
 $('#repos').on('click', function () {
-  $(this).addClass("active");
-  $('#contri').removeClass("active");
-  $('#pubact').removeClass("active");
+  $(this).addClass("nav-active").blur();
+  $('#contri').removeClass("nav-active");
+  $('#pubact').removeClass("nav-active");
 });
 
 
