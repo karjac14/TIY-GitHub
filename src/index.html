@@ -16,7 +16,7 @@
     </head>
     <body>
         <div class ="container">
-          <div class = "prof-column">
+          <section class = "prof-column">
             <div class = "prof-avatar">
               <img src= "https://avatars1.githubusercontent.com/u/583231?v=3&s=460" >
               <h1>{{name}}</h1>
@@ -43,8 +43,70 @@
               <td class ="num">Following</td>
             </tr>
           </table>
-          <div class = "main-column">
+
+        </section>
+          <section class = "main-column">
+            <nav>
+              <div class = "nav-lft">
+                <button id="contri" class = "nav-lft-button">Contributions</button>
+                <button id="repos" class = "nav-lft-button">Repositories</button>
+                <button id="pubact" class = "nav-lft-button">Public Activities</button>
+              </div>
+              <div class = "nav-rgt">
+                <button id="follow" class = "nav-rgt-button">Follow</button>
+                <button id="notif" class = "nav-rgt-button">Notification</button>
+              </div>
+            </nav>
+            <div id ="filter">
+              <form id = "search">
+                <input id="search-field" type="text" name="search" placeholder="Find a Repository..."></input>
+                <button id="search-button" type="submit" value="Search">Search</button>
+              </form>
+              <div id ="filter-options">
+                <a id ="filter-options-all" href="#">All</a>
+                <a id ="filter-options-sources" href="#">Sources</a>
+                <a id ="filter-options-forks" href="#">Forks</a>
+                <a id ="filter-options-mirrors" href="#">Mirrors</a>
+            </div>
           </div>
+            <table id ="repos-list">
+              <tbody>
+                <tr>
+                  <tr class ="repo-details">
+                    <td class="repo-name">Spoon-Knife</td><td rowspan="3" class="repo-stats">9,838  70,444</td>
+                  </tr>
+                  <tr class ="repo-desc">
+                      <td>This repo is for demonstration purposes only.</td>
+                  </tr>
+                  <tr class ="repo-update">
+                      <td>Updated 9 hours ago</td>
+                  </tr>
+                </tr>
+                <tr>
+                  <tr class ="repo-details">
+                    <td class="repo-name">Hello World!</td><td rowspan="3" class="repo-stats">9,838  70,444</td>
+                  </tr>
+                  <tr class ="repo-desc">
+                      <td>This your first repo!</td>
+                  </tr>
+                  <tr class ="repo-update">
+                      <td>Updated 4 days ago</td>
+                  </tr>
+                </tr>
+                <tr>
+                  <tr class ="repo-details">
+                    <td class="repo-name">octocat.github.io</td><td rowspan="3" class="repo-stats">9,838  70,444</td>
+                  </tr>
+                  <tr class ="repo-desc">
+                      <td></td>
+                  </tr>
+                  <tr class ="repo-update">
+                      <td>Updated 4 days ago</td>
+                  </tr>
+                </tr>
+              </tbody>
+            </table>
+          </section>
         </div>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
