@@ -8,18 +8,23 @@ $(document).ready(function(){
 
 // set #contri as active
 $('#contri').on('click', function () {
-  this.addClass("actve");
+  $(this).addClass("active");
   $('#repos').removeClass("active");
   $('#pubact').removeClass("active");
 });
 
 // set #pubact as active
 $('#pubact').on('click', function () {
-  this.addClass("actve");
+  $(this).addClass("active");
   $('#contri').removeClass("active");
   $('#repos').removeClass("active");
 });
 
+$('#repos').on('click', function () {
+  $(this).addClass("active");
+  $('#contri').removeClass("active");
+  $('#pubact').removeClass("active");
+});
 
 
 
