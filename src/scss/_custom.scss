@@ -26,13 +26,13 @@ body {
     margin-right: auto;
     padding-left: auto;
     padding-right: auto;
-    border: 1px solid #AAAAAA;
+    // border: 1px solid #AAAAAA;
     .prof-column {
       float: left;
       // display: inline-block;
       width: 230px;
       height: 1100px;
-      border: 1px solid #AAAAAA;
+      // border: 1px solid #AAAAAA;
       margin: 20px 5px;
       .prof-avatar {
         width: 100%;
@@ -112,15 +112,16 @@ body {
       // display: inline-block;
       width: 730px;
       height: 1100px;
-      border: 1px solid #AAAAAA;
+      // border: 1px solid #AAAAAA;
       margin: 20px 5px;
-      margin-left: 240px;
+      margin-left: 255px;
       nav {
         width: 100%;
+        height: auto;
 
         .nav-lft {
           height: 100%;
-          width: 500px;
+          width: 400px;
           display: inline-block;
           text-align: left;
           margin: 0px 0px;
@@ -148,8 +149,11 @@ body {
           }
         }
         .nav-rgt {
+          border: none;
+          background: white;
           width: 200px;
           display: inline-block;
+          float: right;
           text-align: right;
         }
       }

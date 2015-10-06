@@ -96,13 +96,11 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding-left: auto;
-    padding-right: auto;
-    border: 1px solid #AAAAAA; }
+    padding-right: auto; }
     body .container .prof-column {
       float: left;
       width: 230px;
       height: 1100px;
-      border: 1px solid #AAAAAA;
       margin: 20px 5px; }
       body .container .prof-column .prof-avatar {
         width: 100%;
@@ -160,14 +158,14 @@ body {
     body .container .main-column {
       width: 730px;
       height: 1100px;
-      border: 1px solid #AAAAAA;
       margin: 20px 5px;
-      margin-left: 240px; }
+      margin-left: 255px; }
       body .container .main-column nav {
-        width: 100%; }
+        width: 100%;
+        height: auto; }
         body .container .main-column nav .nav-lft {
           height: 100%;
-          width: 500px;
+          width: 400px;
           display: inline-block;
           text-align: left;
           margin: 0px 0px; }
@@ -191,6 +189,7 @@ body {
         body .container .main-column nav .nav-rgt {
           width: 200px;
           display: inline-block;
+          float: right;
           text-align: right; }
 
 /* ==========================================================================
