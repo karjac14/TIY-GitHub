@@ -1,0 +1,27 @@
+{
+  "name": "TIY-GitHub",
+  "version": "0.0.3",
+  "homepage": "https://github.com/karjac14/TIY-GitHub",
+  "authors": [
+    "Karlo Eleuterio <karloe@gmail.com>"
+  ],
+  "description": "Github Profile",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "~3.10.1",
+    "normalize-css": "normalize.css#~3.0.3",
+    "jquery": "~2.1.4",
+    "modernizr": "~3.1.0",
+    "octicons": "~3.1.0"
+  }
+}

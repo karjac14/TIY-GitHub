@@ -18,24 +18,22 @@
         <div class ="container">
           <section class = "prof-column">
             <div class = "prof-avatar">
-              <img src= "https://avatars1.githubusercontent.com/u/583231?v=3&s=460" >
+              <img id ="avatar" src= "https://avatars.githubusercontent.com/u/8317978?v=3" >
               <h1>{{name}}</h1>
               <h2>{{login}}</h2>
           </div>
           <ul class = "prof-details">
-            <!-- <td> -->
               <li id ="company">{{company}}</li>
               <li id ="location">{{location}}</li>
               <li id ="email"><a href="{{email_url}}">{{email}}</a></li>
               <li id ="blog"><a href="{{blog_url}}">{{blog}}</a></li>
               <li id ="created-at">{{created_at}}</li>
-            <!-- </td> -->
           </ul>
           <table>
             <tr class ="value">
-              <td class ="num">{{followers}}</td>
-              <td class ="num">{{starred_url}}</td>
-              <td class ="num">{{following}}</td>
+              <td id ="followers" class ="num">{{followers}}</td>
+              <td id ="starred" class ="num">{{starred_url}}</td>
+              <td id ="following" class ="num">{{following}}</td>
             </tr>
             <tr class ="desc">
               <td class ="num">Followers</td>
@@ -54,7 +52,7 @@
               </div>
               <div class = "nav-rgt">
                 <button id="follow" class = "nav-rgt-button">Follow</button>
-                <button id="notif" class = "nav-rgt-button">Notification</button>
+                <button id="notif" class = "nav-rgt-button">!</button>
               </div>
             </nav>
             <div id ="filter">
@@ -108,14 +106,39 @@
             </table>
           </section>
         </div>
+
+        <template id="temp-names">
+          <h1>{{name}}</h1>
+          <h2>{{login}}</h2>
+        </template>
+
+        <template id="temp-details">
+          <li id ="company">{{company}}</li>
+          <li id ="location">{{location}}</li>
+          <li id ="email"><a href="{{email_url}}">{{email}}</a></li>
+          <li id ="blog"><a href="{{blog_url}}">{{blog}}</a></li>
+          <li id ="created-at">{{created_at}}</li>
+        </template>
+
+        <template id="temp-values">
+          <td id ="followers" class ="num">{{followers}}</td>
+          <td id ="starred" class ="num">{{starred_url}}</td>
+          <td id ="following" class ="num">{{following}}</td>
+        </template>
+
+
+
+
+
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
         <!-- Add your site or application content here -->
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="../bower_components/jquery/dist/jquery.js"></script>
+        <script src="../bower_components/lodash/lodash.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
