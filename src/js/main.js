@@ -38,7 +38,6 @@ var userApiUrl = "../../apis/github/users/karjac14.json";
 //
 // })
 
-
 $.ajax({
     url: userApiUrl,
     dataType: 'json',
@@ -74,6 +73,7 @@ $(document).ready(function (){
 
 
 });
+
 
 
 
