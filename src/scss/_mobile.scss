@@ -54,7 +54,13 @@ body {
           margin-top: -5px;
           margin-bottom: -5px;
         }
-        h2 {
+        h2.login {
+          font-size: 1.25em;
+          font-weight: 200;
+          margin-top: 0px;
+          margin-bottom: 0px;
+        }
+        h2.email-mobile {
           font-size: 1.25em;
           font-weight: 200;
           margin-top: 0px;
@@ -63,38 +69,6 @@ body {
     }
     .prof-details {
       display: none; // section not shown in mobile
-      padding-left: 0px;
-      border-bottom: 1px solid #BBBBBB;
-      li{
-        padding-left: 0px;
-        text-align: left;
-        list-style: none;
-
-        &#company::before {
-          font-family: 'octicons';
-          content: "\f037  ";
-        }
-
-        &#location::before {
-          font-family: 'octicons';
-          content: "\f060  ";
-        }
-
-        &#email::before {
-          font-family: 'octicons';
-          content: "\f03b  ";
-        }
-
-        &#blog::before {
-          font-family: 'octicons';
-          content: "\f05c  ";
-        }
-
-        &#created-at::before {
-          font-family: 'octicons';
-          content: "\f046  ";
-        }
-      }
     } //prof-details
       table {
         width: 100%;

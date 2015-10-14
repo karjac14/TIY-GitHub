@@ -116,11 +116,13 @@ body {
           font-weight: bold;
           margin-top: -5px;
           margin-bottom: -5px; }
-        body .container .prof-column .prof-avatar h2 {
+        body .container .prof-column .prof-avatar h2.login {
           font-size: 1.25em;
           font-weight: 200;
           margin-top: 0px;
           margin-bottom: 0px; }
+        body .container .prof-column .prof-avatar h2.email-mobile {
+          display: none; }
       body .container .prof-column .prof-details {
         padding-left: 0px;
         border-bottom: 1px solid #BBBBBB; }
@@ -278,33 +280,18 @@ body {
             font-weight: bold;
             margin-top: -5px;
             margin-bottom: -5px; }
-          body .container .prof-column .prof-avatar h2 {
+          body .container .prof-column .prof-avatar h2.login {
+            font-size: 1.25em;
+            font-weight: 200;
+            margin-top: 0px;
+            margin-bottom: 0px; }
+          body .container .prof-column .prof-avatar h2.email-mobile {
             font-size: 1.25em;
             font-weight: 200;
             margin-top: 0px;
             margin-bottom: 0px; }
         body .container .prof-column .prof-details {
-          padding-left: 0px;
-          border-bottom: 1px solid #BBBBBB; }
-          body .container .prof-column .prof-details li {
-            padding-left: 0px;
-            text-align: left;
-            list-style: none; }
-            body .container .prof-column .prof-details li#company::before {
-              font-family: 'octicons';
-              content: "\f037  "; }
-            body .container .prof-column .prof-details li#location::before {
-              font-family: 'octicons';
-              content: "\f060  "; }
-            body .container .prof-column .prof-details li#email::before {
-              font-family: 'octicons';
-              content: "\f03b  "; }
-            body .container .prof-column .prof-details li#blog::before {
-              font-family: 'octicons';
-              content: "\f05c  "; }
-            body .container .prof-column .prof-details li#created-at::before {
-              font-family: 'octicons';
-              content: "\f046  "; }
+          display: none; }
         body .container .prof-column table {
           width: 100%;
           margin: 0px 0px;

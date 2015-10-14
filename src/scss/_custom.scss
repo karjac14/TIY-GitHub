@@ -50,11 +50,14 @@ body {
           margin-top: -5px;
           margin-bottom: -5px;
         }
-        h2 {
+        h2.login {
           font-size: 1.25em;
           font-weight: 200;
           margin-top: 0px;
           margin-bottom: 0px;
+        }
+        h2.email-mobile {
+          display: none;
         }
     }
     .prof-details {
