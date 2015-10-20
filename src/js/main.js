@@ -24,63 +24,52 @@ $('#repos').on('click', function () {
   $(this).addClass("nav-active").blur();
   $('#contri').removeClass("nav-active");
   $('#pubact').removeClass("nav-active");
-});
+}).trigger('click');
+
+;(function(){
 
 
-var userApiUrl = "../../apis/github/users/karjac14.json";
+angular.module('github',[])
+  .run([ '$rootScope','$http', function($scope, $http){
+    $http.get("../../apis/github/users/karjac14.json") // will work running html in Browser Sync
+      .then(function(response){
+        console.log(response);
+        $scope.personalInfos = response.data;
+      });
+      }]);
+
+  // .run([ '$rootScope','$http', function($scope, $http){
+  //   $http.get("../../apis/github/users/karjac14/repositories.json") // will work running html in Browser Sync
+  //     .then(function(response){
+  //       console.log(response);
+  //       $scope.repos = response.data;
+  //     });
+  //     }]);
+
+})(window);
 
 
-//jQuery.getJSON( url [, data ] [, success ] )
-
-// jQuery.getJSON(userApiUrl, function (json) {
-//   console.log ("Name: " + json.name);
+// var userApiUrl = "../../apis/github/users/karjac14.json";
 //
+// $.ajax({
+//     url: userApiUrl,
+//     dataType: 'json',
+//     success: function( json )
+//     {
+//         $('#avatar').attr("src", json.avatar_url );
+//         $('h1').text( json.name );
+//         $('h2').text( json.login );
+//         $('#company').text( json.company );
+//         $('#location').text( json.location);
+//         $('#blog').text( json.blog);
+//         $('#email').text( json.email );
+//         $('#created-at').text( json.created_at );
+//         $('#followers').text( json.followers);
+//         $('#starred').text( json.starred );
+//         $('#following').text( json.following );
 //
-// })
-
-$.ajax({
-    url: userApiUrl,
-    dataType: 'json',
-    success: function( json )
-    {
-        $('#avatar').attr("src", json.avatar_url );
-        $('h1').text( json.name );
-        $('h2').text( json.login );
-        $('#company').text( json.company );
-        $('#location').text( json.location);
-        $('#blog').text( json.blog);
-        $('#email').text( json.email );
-        $('#created-at').text( json.created_at );
-        $('#followers').text( json.followers);
-        $('#starred').text( json.starred );
-        $('#following').text( json.following );
-
-        // using custom template delimiters
-        _.templateSettings.interpolate = /{{([\s\S]+?)}}/g;
-        var name = _.template('{{name}}');
-        name(json);
-        // → 'hello mustache!'
-
-    }
-});
-
-$(document).ready(function (){
-  _.templateSettings.interpolate = /{{([\s\S]+?)}}/g;
-  var names =_.template($("#temp-names").html());
-  var resultingNames = names(userApiUrl.name);
-
-  $('.prof-avatar').html(resultingNames);
-
-
-});
-
-
-
-
-
-
-
-// last week assignement
-// jQuery.ajax('../apis/github/users/octocat.json').then(function(data){
-//  console.log(arguments);
-// });
+//         // using custom template delimiters
+//         _.templateSettings.interpolate = /{{([\s\S]+?)}}/g;
+//         var name = _.template('{{name}}');
+//         name(json);
+//         // → 'hello mustache!'

@@ -90,8 +90,25 @@ body {
   list-style: none;
   margin-left: auto;
   margin-right: auto; }
+  body header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e5e5e5; }
+    body header .look-legit {
+      width: 100%;
+      max-width: 885px;
+      margin: 0 auto; }
+      body header .look-legit span {
+        float: left;
+        width: 28px;
+        height: 28px;
+        font-size: 28px;
+        margin-left: 5px; }
   body .container {
-    width: 885px;
+    width: 100%;
+    max-width: 885px;
     height: auto;
     margin-top: 30px;
     margin-left: auto;
@@ -166,15 +183,17 @@ body {
         height: auto; }
         body .container .main-column nav .nav-lft {
           height: 100%;
-          width: 400px;
+          width: 100%;
           display: inline-block;
           text-align: left;
-          margin: 0px 0px; }
+          margin: 0px 0px;
+          border-bottom: 1px solid #BBBBBB; }
           body .container .main-column nav .nav-lft button {
             background: white;
             border: none;
             border-bottom: 1px solid #BBBBBB;
-            float: left; }
+            float: left;
+            margin-bottom: -1px; }
             body .container .main-column nav .nav-lft button.nav-active {
               border: 1px solid #BBBBBB;
               border-bottom: none; }
@@ -193,7 +212,8 @@ body {
           width: 200px;
           display: inline-block;
           float: right;
-          text-align: right; }
+          text-align: right;
+          margin-top: -40px; }
       body .container .main-column div#filter {
         display: block;
         width: 100%;
@@ -292,13 +312,14 @@ body {
  *    `:before` to contain the top-margins of child elements.
  */
 .clearfix:before,
-.clearfix:after {
+body header:before,
+.clearfix:after, body header:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */ }
 
-.clearfix:after {
+.clearfix:after, body header:after {
   clear: both; }
 
 /* ==========================================================================
