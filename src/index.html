@@ -73,38 +73,16 @@
             </div>
           </div>
             <table id ="repos-list">
-              <tbody>
+              <tbody ng-repeat = "repo in repos">
                 <tr>
                   <tr class ="repo-details">
-                    <td class="repo-name">Spoon-Knife</td><td rowspan="3" class="repo-stats">9,838  70,444</td>
+                    <td class="repo-name">{{repo.name}}</td><td rowspan="3" class="repo-stats">9,838  70,444</td>
                   </tr>
                   <tr class ="repo-desc">
-                      <td>This repo is for demonstration purposes only.</td>
+                      <td>{{repo.description}}</td>
                   </tr>
                   <tr class ="repo-update">
-                      <td>Updated 9 hours ago</td>
-                  </tr>
-                </tr>
-                <tr>
-                  <tr class ="repo-details">
-                    <td class="repo-name">Hello World!</td><td rowspan="3" class="repo-stats">9,838  70,444</td>
-                  </tr>
-                  <tr class ="repo-desc">
-                      <td>This your first repo!</td>
-                  </tr>
-                  <tr class ="repo-update">
-                      <td>Updated 4 days ago</td>
-                  </tr>
-                </tr>
-                <tr>
-                  <tr class ="repo-details">
-                    <td class="repo-name">octocat.github.io</td><td rowspan="3" class="repo-stats">9,838  70,444</td>
-                  </tr>
-                  <tr class ="repo-desc">
-                      <td></td>
-                  </tr>
-                  <tr class ="repo-update">
-                      <td>Updated 4 days ago</td>
+                      <td>Last updated at {{repo.updated_at | date}}</td>
                   </tr>
                 </tr>
               </tbody>
