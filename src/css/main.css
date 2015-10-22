@@ -90,8 +90,25 @@ body {
   list-style: none;
   margin-left: auto;
   margin-right: auto; }
+  body header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e5e5e5; }
+    body header .look-legit {
+      width: 100%;
+      max-width: 885px;
+      margin: 0 auto; }
+      body header .look-legit span {
+        float: left;
+        width: 28px;
+        height: 28px;
+        font-size: 28px;
+        margin-left: 5px; }
   body .container {
-    width: 885px;
+    width: 100%;
+    max-width: 885px;
     height: auto;
     margin-top: 30px;
     margin-left: auto;
@@ -166,15 +183,17 @@ body {
         height: auto; }
         body .container .main-column nav .nav-lft {
           height: 100%;
-          width: 400px;
+          width: 100%;
           display: inline-block;
           text-align: left;
-          margin: 0px 0px; }
+          margin: 0px 0px;
+          border-bottom: 1px solid #BBBBBB; }
           body .container .main-column nav .nav-lft button {
             background: white;
             border: none;
             border-bottom: 1px solid #BBBBBB;
-            float: left; }
+            float: left;
+            margin-bottom: -1px; }
             body .container .main-column nav .nav-lft button.nav-active {
               border: 1px solid #BBBBBB;
               border-bottom: none; }
@@ -193,7 +212,8 @@ body {
           width: 200px;
           display: inline-block;
           float: right;
-          text-align: right; }
+          text-align: right;
+          margin-top: -40px; }
       body .container .main-column div#filter {
         display: block;
         width: 100%;
@@ -236,6 +256,40 @@ body {
         body .container .main-column table#repos-list tr.repo-update td {
           padding-bottom: 5%;
           border-bottom: 1px solid #BBBBBB; }
+      body .container .main-column .test-comments {
+        width: 100%;
+        height: auto;
+        margin-top: 30px; }
+        body .container .main-column .test-comments .actual-comment {
+          width: 100%;
+          border: 1px solid #BBBBBB;
+          border-radius: 4px;
+          margin-top: 15px;
+          margin-bottom: 15px; }
+          body .container .main-column .test-comments .actual-comment tbody .comment-user-infos {
+            width: 100%; }
+            body .container .main-column .test-comments .actual-comment tbody .comment-user-infos td:first-child {
+              padding: 5px;
+              border: none; }
+              body .container .main-column .test-comments .actual-comment tbody .comment-user-infos td:first-child img {
+                width: 48px;
+                height: 48px;
+                border-radius: 3px; }
+            body .container .main-column .test-comments .actual-comment tbody .comment-user-infos td:last-child {
+              background-color: #F2F8FA; }
+          body .container .main-column .test-comments .actual-comment tbody .comment-user-said {
+            background-color: #FFFFFF; }
+        body .container .main-column .test-comments .comment-form {
+          width: 100%; }
+          body .container .main-column .test-comments .comment-form input#user-login {
+            width: 20em; }
+          body .container .main-column .test-comments .comment-form textarea {
+            display: block;
+            width: 100%;
+            min-height: 200px; }
+          body .container .main-column .test-comments .comment-form .comment-submit {
+            display: block;
+            margin-bottom: 20px; }
 
 /* ==========================================================================
    Helper classes
@@ -292,13 +346,14 @@ body {
  *    `:before` to contain the top-margins of child elements.
  */
 .clearfix:before,
-.clearfix:after {
+body header:before,
+.clearfix:after, body header:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */ }
 
-.clearfix:after {
+.clearfix:after, body header:after {
   clear: both; }
 
 /* ==========================================================================

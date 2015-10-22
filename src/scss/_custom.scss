@@ -18,9 +18,30 @@ body {
   list-style: none;
   margin-left: auto;
   margin-right: auto;
+  header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e5e5e5;
+    @extend .clearfix;
+    .look-legit {
+      width: 100%;
+      max-width: 885px;
+      margin: 0 auto;
+      span {
+        float: left;
+        width: 28px;
+        height: 28px;
+        font-size: 28px;
+        margin-left: 5px;
+      }
+    }
+  }
   .container {
     // align-items: center;
-    width: 885px;
+    width: 100%;
+    max-width: 885px;
     height: auto;
     margin-top: 30px;
     margin-left: auto;
@@ -122,17 +143,20 @@ body {
 
         .nav-lft {
           height: 100%;
-          width: 400px;
+          width: 100%;
           display: inline-block;
           text-align: left;
           margin: 0px 0px;
+          border-bottom: 1px solid #BBBBBB;
           button {
             background: white;
             border: none;
             border-bottom: 1px solid #BBBBBB;
             float: left;
+            margin-bottom: -1px;
             &.nav-active{
               border: 1px solid #BBBBBB;
+              // border-bottom: 1px solid #FFFFFF;
               border-bottom: none;
             }
             &#contri::before {
@@ -156,6 +180,7 @@ body {
           display: inline-block;
           float: right;
           text-align: right;
+          margin-top: -40px;
         }
       } // nav
       div#filter {
@@ -217,6 +242,56 @@ body {
           }
         }
       }
+      .test-comments {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+        .actual-comment {
+          width: 100%;
+          border: 1px solid #BBBBBB;
+          border-radius: 4px;
+          margin-top: 15px;
+          margin-bottom: 15px;
+          tbody {
+            .comment-user-infos {
+              width: 100%;
+              td:first-child{
+                padding: 5px;
+                border: none;
+                img {
+                  width: 48px;
+                  height: 48px;
+                  border-radius: 3px;
+                }
+              }
+              td:last-child{
+              background-color: #F2F8FA;
+              }
+            }
+            .comment-user-said {
+              background-color: #FFFFFF;
+            }
+          } //tbody
+        } //table
+        .comment-form {
+          width: 100%;
+          input#user-login{
+            width: 20em;
+            margin-bottom: 10px;
+          }
+          textarea {
+            display: block;
+            width: 100%;
+            min-height: 200px;
+          }
+          .comment-submit {
+            display: block;
+            margin-bottom: 20px;
+          }
+        }
+
+      } //section
+
 
     } //main-column
     } //.container
