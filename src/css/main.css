@@ -256,6 +256,40 @@ body {
         body .container .main-column table#repos-list tr.repo-update td {
           padding-bottom: 5%;
           border-bottom: 1px solid #BBBBBB; }
+      body .container .main-column .test-comments {
+        width: 100%;
+        height: auto;
+        margin-top: 30px; }
+        body .container .main-column .test-comments .actual-comment {
+          width: 100%;
+          border: 1px solid #BBBBBB;
+          border-radius: 4px;
+          margin-top: 15px;
+          margin-bottom: 15px; }
+          body .container .main-column .test-comments .actual-comment tbody .comment-user-infos {
+            width: 100%; }
+            body .container .main-column .test-comments .actual-comment tbody .comment-user-infos td:first-child {
+              padding: 5px;
+              border: none; }
+              body .container .main-column .test-comments .actual-comment tbody .comment-user-infos td:first-child img {
+                width: 48px;
+                height: 48px;
+                border-radius: 3px; }
+            body .container .main-column .test-comments .actual-comment tbody .comment-user-infos td:last-child {
+              background-color: #F2F8FA; }
+          body .container .main-column .test-comments .actual-comment tbody .comment-user-said {
+            background-color: #FFFFFF; }
+        body .container .main-column .test-comments .comment-form {
+          width: 100%; }
+          body .container .main-column .test-comments .comment-form input#user-login {
+            width: 20em; }
+          body .container .main-column .test-comments .comment-form textarea {
+            display: block;
+            width: 100%;
+            min-height: 200px; }
+          body .container .main-column .test-comments .comment-form .comment-submit {
+            display: block;
+            margin-bottom: 20px; }
 
 /* ==========================================================================
    Helper classes

@@ -44,7 +44,33 @@ angular.module('github',[])
         console.log(response);
         $scope.repos = response.data;
       });
+      }])
+
+  .run([ '$rootScope','$http', function($scope, $http){
+    $http.get("../../apis/github/users/karjac14/comments.json") // will work running html in Browser Sync
+      .then(function(response){
+        console.log(response);
+        $scope.comments = response.data;
+
+        //adding new comment
+        $scope.addNewComments = function () {
+          $scope.comments.push ({ 'comment.user.login': $scope.loginID,'body':$scope.body });
+          var dataObj = {
+            'user.login':$scope.loginID,
+            'body':$scope.body
+          };
+          $http.post("../../apis/github/users/karjac14/comments.json", dataObj);
+          $scope.loginID = " ";
+          $scope.body = " ";
+        }
+
+
+
+
+      });
       }]);
+
+
 
 
 })(window);

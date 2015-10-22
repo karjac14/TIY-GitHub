@@ -87,27 +87,34 @@
                 </tr>
               </tbody>
             </table>
+            <section class="test-comments">
+              <div class="single-comment" ng-repeat="comment in comments">
+                <table class="actual-comment">
+                  <tbody>
+                    <tr class="comment-user-infos">
+                      <td rowspan="2">
+                        <img ng-src={{comment.user.avatar_url}}>
+                      </td>
+                      <td>
+                        <span>@{{comment.user.login}}</span>
+                        <span>  commented last {{comment.updated_at | date}}</span>
+                      </td>
+                    </tr>
+                    <tr class"comment-user-said">
+                      <td>{{comment.body}}</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+            <form class="comment-form" ng-submit="addNewComments()">
+              <input id="user-login" name="username" placeholder="username here" ng-model="loginID"/>
+              <textarea type="text" class="comment-box" name="comment-name" placeholder="your unbiased positive comments here please..." ng-model="body"></textarea>
+              <input class="comment-submit" type="submit" value="Comment">
+            </form>
+          </section> <!--comments box-->
           </section>
         </div>
 
-        <template id="temp-names">
-          <h1>{{name}}</h1>
-          <h2>{{login}}</h2>
-        </template>
-
-        <template id="temp-details">
-          <li id ="company">{{company}}</li>
-          <li id ="location">{{location}}</li>
-          <li id ="email"><a href="{{email_url}}">{{email}}</a></li>
-          <li id ="blog"><a href="{{blog_url}}">{{blog}}</a></li>
-          <li id ="created-at">{{created_at}}</li>
-        </template>
-
-        <template id="temp-values">
-          <td id ="followers" class ="num">{{followers}}</td>
-          <td id ="starred" class ="num">{{starred_url}}</td>
-          <td id ="following" class ="num">{{following}}</td>
-        </template>
 
 
 

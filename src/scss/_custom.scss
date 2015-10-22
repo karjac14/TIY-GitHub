@@ -242,6 +242,56 @@ body {
           }
         }
       }
+      .test-comments {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+        .actual-comment {
+          width: 100%;
+          border: 1px solid #BBBBBB;
+          border-radius: 4px;
+          margin-top: 15px;
+          margin-bottom: 15px;
+          tbody {
+            .comment-user-infos {
+              width: 100%;
+              td:first-child{
+                padding: 5px;
+                border: none;
+                img {
+                  width: 48px;
+                  height: 48px;
+                  border-radius: 3px;
+                }
+              }
+              td:last-child{
+              background-color: #F2F8FA;
+              }
+            }
+            .comment-user-said {
+              background-color: #FFFFFF;
+            }
+          } //tbody
+        } //table
+        .comment-form {
+          width: 100%;
+          input#user-login{
+            width: 20em;
+            margin-bottom: 10px;
+          }
+          textarea {
+            display: block;
+            width: 100%;
+            min-height: 200px;
+          }
+          .comment-submit {
+            display: block;
+            margin-bottom: 20px;
+          }
+        }
+
+      } //section
+
 
     } //main-column
     } //.container
